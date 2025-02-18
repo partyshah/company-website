@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #0C1120;
+  background-color: #44E4A7;
+  height: 50px;
+}
+
+.footer-content {
+  color: #0C1120;
+  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  padding: 0 34px;
+} 
