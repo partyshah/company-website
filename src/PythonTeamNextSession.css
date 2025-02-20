@@ -1,0 +1,96 @@
+.next-session {
+  background-color: #FDE35D;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 2px solid #0C1120;
+}
+
+.next-session h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.session-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.session-card {
+  background: #FFFFFF;
+  border: 2px solid #0C1120;
+  border-radius: 16px;
+  padding: 24px;
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+}
+
+.session-date {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.session-card h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.session-time {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .next-session {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .next-session {
+    padding: 40px 34px;
+  }
+
+  .next-session h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .session-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .session-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 428px) {
+  .next-session {
+    padding: 32px 20px;
+  }
+
+  .next-session h2 {
+    font-size: 32px;
+  }
+} 
