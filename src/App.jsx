@@ -8,7 +8,7 @@ import Testimonials from './Testimonials';
 import Apply from './Apply';
 import Footer from "./Footer";
 import Home from './Home';
-import Test from './Test';
+import PythonTeam from './PythonTeam';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
@@ -39,7 +39,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/pythonteam" element={<PythonTeam />} />
       </Routes>
     </>
   );

@@ -1,0 +1,26 @@
+.python-team {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.team-page {
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .team-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 428px) {
+  .team-page {
+    width: 100%;
+  }
+} 
