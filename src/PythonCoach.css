@@ -1,0 +1,119 @@
+.coach {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coach-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.coach-content h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.coach-card {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #0C1120;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+.coach-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.coach-info {
+  padding: 32px;
+  border-left: 1px solid #0C1120;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.coach-info h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.coach-info p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+}
+
+.coach-info p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1440px) {
+  .coach {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .coach {
+    padding: 40px 34px;
+  }
+
+  .coach-content h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .coach-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coach-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .coach-info {
+    padding: 24px;
+  }
+
+  .coach-info h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .coach-info p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 428px) {
+  .coach {
+    padding: 32px 20px;
+  }
+
+  .coach-content h2 {
+    font-size: 32px;
+  }
+} 

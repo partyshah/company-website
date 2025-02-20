@@ -12,7 +12,7 @@ const TeamCard = ({ level, title, sessions, backgroundPath }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/test');
+    navigate('/pythonteam');
   };
 
   return (
