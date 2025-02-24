@@ -9,6 +9,7 @@ import Apply from './Apply';
 import Footer from "./Footer";
 import Home from './Home';
 import PythonTeam from './PythonTeam/PythonTeam';
+import AITeam from './AITeam/AITeam';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
@@ -40,6 +41,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pythonteam" element={<PythonTeam />} />
+        <Route path="/aiteam" element={<AITeam />} />
+        <Route path="/aifinance" element={<AITeam />} />
+        <Route path="/gamedev" element={<PythonTeam />} />
       </Routes>
     </>
   );

@@ -1,0 +1,129 @@
+.application {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.application-content h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  text-align: left;
+}
+
+.application-content > p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 40px 0;
+  text-align: left;
+}
+
+.application-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #DC92F5;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.application-step {
+  background-color: white;
+  border: 2px solid #0C1120;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.application-step h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  min-width: 40px;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h4 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.step-content p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .application {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .application {
+    padding: 40px 34px;
+  }
+
+  .application-content h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .application-content > p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .step-content h4 {
+    font-size: 20px;
+  }
+
+  .step-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 428px) {
+  .application {
+    padding: 32px 20px;
+  }
+
+  .application-content h2 {
+    font-size: 32px;
+  }
+
+  .application-steps {
+    padding: 16px;
+  }
+
+  .application-step {
+    padding: 16px;
+    gap: 16px;
+  }
+} 
