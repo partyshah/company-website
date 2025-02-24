@@ -1,6 +1,6 @@
 import React from 'react';
 import './PythonCoach.css';
-import vinayProfile from './images/vinayprofile.jpg';
+import vinayProfile from '../images/vinayprofile.jpg';
 
 const PythonCoach = () => {
   return (
