@@ -8,7 +8,7 @@ import Testimonials from './Testimonials';
 import Apply from './Apply';
 import Footer from "./Footer";
 import Home from './Home';
-import PythonTeam from './PythonTeam';
+import PythonTeam from './PythonTeam/PythonTeam';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
