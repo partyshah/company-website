@@ -1,6 +1,6 @@
 import React from 'react';
 import './PythonCoach.css';
-import vinayProfile from '../images/vinayprofile.jpg';
+import rickProfile from '../images/rick.jpeg';
 
 const PythonCoach = () => {
   return (
@@ -8,21 +8,11 @@ const PythonCoach = () => {
       <div className="coach-content">
         <h2>Meet the coach</h2>
         <div className="coach-card">
-          <img src={vinayProfile} alt="Coach Parth" className="coach-image" />
+          <img src={rickProfile} alt="Coach Rick" className="coach-image" />
           <div className="coach-info">
-            <h3>Coach Parth</h3>
+            <h3>Coach Rick</h3>
             <p>
-              Hey, I'm Parth! My parents immigrated from India in the '90s where we first 
-              settled in Kentucky. Afterwards, I grew up in the Bay Area and attended UC 
-              Berkeley on a full-ride scholarship as a Regent's and Chancellor's Scholar. I 
-              studied Electrical Engineering & Computer Sciences along with Education.
-            </p>
-            <p>
-              I've worked at cool tech companies and startups like GitHub, Codecademy, and 
-              Teamshares. In addition, I was a high school calculus & computer science 
-              teacher (2018 National Student Teacher of the Year), head TA at UC Berkeley, 
-              and ran a coding school in Southern California. My goal in life to get more 
-              people passionate about STEM, and I can't wait to do that for your family.
+              Hey I'm Matan! I grew up around Boston and studied Computer Science at Brown University, where I completed my bachelor’s and master’s degrees in four years. At Brown, I played in the jazz band and was a teaching assistant for a data science course. After graduating, I worked as a software engineer at Amazon Web Services and then as a founding engineer for several early-stage startups. At the same time, I’ve been teaching and mentoring students in programming, machine learning, and artificial intelligence over the past three years. I’m passionate about making AI accessible and engaging for students, and I can’t wait to meet you all!
             </p>
           </div>
         </div>

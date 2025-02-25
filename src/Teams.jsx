@@ -37,12 +37,11 @@ const Teams = () => {
   const teamData = [
     {
       level: "Intro",
-      title: "Intro Python Games",
+      title: "Creative Coding",
       backgroundPath: img1,
       route: "/pythonteam",
       sessions: [
-        "June 9 - July 18th ; 6:30-8pm EST",
-        "July 7th - August 15th ; 6:30-8pm EST",
+        "June 9 - July 18th ; 6:30-8pm EST"
       ],
     },
     {

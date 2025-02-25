@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
 import './Testimonials.css';
-import videoFile from './images/video.mp4';
+import testimonial1Video from './images/testimonial1.mp4';
+import testimonial2Video from './images/testimonial2.mp4';
+import testimonial3Video from './images/testimonial3.mp4';
 
 const Testimonials = () => {
   const [playingVideo, setPlayingVideo] = useState(null);
@@ -34,6 +36,7 @@ const Testimonials = () => {
     {
       type: 'video',
       videoId: 'video1',
+      videoSrc: testimonial1Video,
       backgroundColor: "#44E4A7"  // Green
     },
     {
@@ -46,6 +49,7 @@ const Testimonials = () => {
     {
       type: 'video',
       videoId: 'video2',
+      videoSrc: testimonial2Video,
       backgroundColor: "#DC92F5"  // Purple
     },
     {
@@ -58,6 +62,7 @@ const Testimonials = () => {
     {
       type: 'video',
       videoId: 'video3',
+      videoSrc: testimonial3Video,
       backgroundColor: "#FDE35D"  // Yellow
     }
   ];
@@ -92,7 +97,7 @@ const Testimonials = () => {
               >
                 <video
                   ref={el => videoRefs.current[testimonial.videoId] = el}
-                  src={videoFile}
+                  src={testimonial.videoSrc}
                   className="video-element"
                   playsInline
                 />
