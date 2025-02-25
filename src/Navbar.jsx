@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        The Coding Games
+        Pike Teams
       </div>
       <button className="navbar-apply-button">
         Apply now

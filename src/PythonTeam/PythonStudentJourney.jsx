@@ -5,11 +5,11 @@ const PythonStudentJourney = () => {
   const journeySteps = [
     {
       week: 'Week 1',
-      description: 'This week is focused on learning the tech-stack through a mini project.'
+      description: 'This week is focused on learning p5.js and the fundamentals of coding through a mini project.'
     },
     {
       week: 'Week 2',
-      description: 'They will work on their first set of features with a partner assigned by their project lead.'
+      description: 'They will work on their first set of features with a partner assigned by their project lead. They will also learn about the importance of user experience and design.'
     },
     {
       week: 'Week 3',
@@ -17,7 +17,7 @@ const PythonStudentJourney = () => {
     },
     {
       week: 'Week 4-5',
-      description: 'They will work on their second set of features with a partner assigned by their project lead.'
+      description: 'They will work on their second set of features with a partner assigned by their project lead. They will be working on more complex features and using various p5.js functions.'
     },
     {
       week: 'Week 6',
@@ -26,18 +26,13 @@ const PythonStudentJourney = () => {
   ];
 
   return (
-    <div className="student-journey">
-      <div className="journey-content">
+    <div className="python-student-journey">
+      <div className="python-journey-content">
         <h2>The student journey</h2>
-        <p>
-          On this team, you will work with 7 other engineers to build an X. Your coach and
-          project lead will teach you the tech stack, work with you to decide features, and help
-          you debug. Becoming a project lead is invite only and will be based on the quality of
-          your application.
-        </p>
-        <div className="journey-steps">
+        <p>On this team, you will work with a team to learn the fundamentals of coding and build a creative and artistic web animation. Your coach and project lead will teach you the javascript through the p5.js library, work with you to decide features, and help you debug. Becoming a project lead is invite only and will be based on the quality of your application.</p>
+        <div className="python-journey-steps">
           {journeySteps.map((step, index) => (
-            <div key={index} className="journey-step">
+            <div key={index} className="python-journey-step">
               <h3>{step.week}</h3>
               <p>{step.description}</p>
             </div>

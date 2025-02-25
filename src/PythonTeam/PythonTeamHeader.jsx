@@ -7,11 +7,11 @@ const PythonTeamHeader = () => {
     <div className="team-header">
       <div className="header-content">
         <div className="level-badge intro">Intro</div>
-        <h1>Intro to Python Games</h1>
-        <p>Develop the computer science skills expected at the college level by joining a team of 10-15 ambitious high schoolers who build real software products to submit as part of an app challenge competition.</p>
+        <h1>Creative Coding</h1>
+        <p>Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition.</p>
         <div className="outcome-section">
           <h2>Outcome</h2>
-          <p>On this team, you will build a fully functioning game like Tetris with a complete UI. To build that, you will be getting comfortable with Python, libraries like Streamlit, and deployment.</p>
+          <p>By the end of the 6 weeks, you will build and publish your own web art that takes in real user input. You will be able to build complex sound visualizers, games, and shapeshifting patterns all using p5.js.</p>
         </div>
       </div>
       <div className="header-image">

@@ -5,7 +5,7 @@ const PythonSchedule = () => {
   const scheduleItems = [
     {
       duration: '25 mins',
-      description: 'Lesson of the day (Fetch data from a public API, new data structures)'
+      description: 'Lesson of the day (p5.js functions, javascript fundamentals)'
     },
     {
       duration: '60 mins',

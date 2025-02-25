@@ -9,10 +9,11 @@ const LandingHeader = () => {
   return (
     <header className="header">
       <div className="content">
-        <h1>A national coding competition for high school students.</h1>
+        <h1>Build real software products, in a team</h1>
         <p className="header-description">
-          Build real software products, in a team led by engineers from Google,
-          Amazon, and Atlassian.
+          The Pike App Challenge is an intense 6-week competition for top
+          high school computer science students. Join a team led by engineers
+          from Google, Amazon, and Atlassian.
         </p>
         <div className="cta-container">
           <p className="date">Summer 2025</p>
