@@ -22,7 +22,7 @@ const CreativeTeam = () => {
       <MetaTags
         title="Creative Coding Team | Learn Creative Coding"
         description="Join our Creative Coding team and learn to create interactive art, animations, and creative projects using code. Perfect for students interested in combining art and technology."
-        image={`${window.location.origin}/og-images/creativecoding-og.png`}
+        image="https://piketeams.com/og-images/creativecoding-og.png"
       />
       <Navbar />
       <div className="team-page">
