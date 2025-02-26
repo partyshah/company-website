@@ -6,7 +6,7 @@ const Apply = () => {
     <div className="apply-section">
       <div className="apply-container">
         <h2 className="apply-title">Apply to join today!</h2>
-        <p className="apply-description">Final call to action here! This button below will scroll up to the offerings section.</p>
+        <p className="apply-description">We're currently accepting applications for our summer programs. Apply now to secure your spot!</p>
         <a 
           href="https://google.com" 
           target="_blank" 

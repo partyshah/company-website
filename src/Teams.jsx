@@ -28,7 +28,7 @@ const TeamCard = ({ level, title, sessions, backgroundPath, route }) => {
         <div className={`level-badge ${levelClass}`}>{level}</div>
         <h3>{title}</h3>
         {sessions.map((session, index) => (
-          <p key={index}>Session {index + 1}: {session}</p>
+          <p key={index}>Next Session: {session}</p>
         ))}
       </div>
     </div>
@@ -43,7 +43,7 @@ const Teams = () => {
       backgroundPath: creativeCoding,
       route: "/creativecodingteam",
       sessions: [
-        "June 9 - July 18th ; 6:30-8pm EST"
+        "June 9 - July 18th. Mondays and Wednesdays, 6-8pm EST"
       ],
     },
     {
@@ -52,23 +52,22 @@ const Teams = () => {
       backgroundPath: gameDev,
       route: "/gamedevteam",
       sessions: [
-        "June 9 - July 18th ; 6:30-8pm EST",
-        "July 7th - August 15th ; 6:30-8pm EST",
+        "June 9 - July 18th. Tuesdays and Thursdays, 6-8pm PST",
       ],
     },
     {
       level: "Advanced",
-      title: "AI Team",
+      title: "AI Practical Applications Team",
       backgroundPath: ai,
       route: "/aiteam",
-      sessions: ["June 9 - July 18th ; 6:30-8pm EST"],
+      sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 6-8pm EST"],
     },
     {
       level: "Advanced",
-      title: "Natural Language Processing Team",
+      title: "AI Natural Language Processing Team",
       backgroundPath: nlp,
       route: "/nlpteam",
-      sessions: ["July 7th - August 15th ; 6:30-8pm EST"],
+      sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 5-7pm PST"],
     },
   ];
 
@@ -77,7 +76,7 @@ const Teams = () => {
     <section className="teams">
       <div className="teams-header">
         <h2>Apply for a team</h2>
-        <p>Join a team based on your child's interests, level, and availability.</p>
+        <p>Join a team based on your interests, level, and availability.</p>
       </div>
       <div className="teams-grid">
         {teamData.map((team, index) => (

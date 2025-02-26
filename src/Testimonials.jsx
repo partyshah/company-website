@@ -28,9 +28,9 @@ const Testimonials = () => {
   const testimonials = [
     {
       type: 'text',
-      content: "As a parent watching my daughter dive into the AI Financial Products track, I was blown away by the real-world skills she developed. Her team created a mobile app for financial literacy under the mentorship of a Google engineer, and I've never seen her more confident and inspired. The sparkle in her eyes when she talks about her project makes every moment worth it.",
-      author: "Sarah",
-      role: "10th grade parent",
+      content: "Pike Teams has given our son experience collaborating in groups, problem solving and producing competitive projects while increasing his knowledge of coding. We are really enjoying the experience!",
+      author: "Danielle Pitts",
+      role: "9th grade parent, Connecticut",
       backgroundColor: "#DC92F5"  // Purple
     },
     {
@@ -41,9 +41,9 @@ const Testimonials = () => {
     },
     {
       type: 'text',
-      content: "When my son joined the Advanced AI track, I honestly wasn't sure if he was ready for such a challenge. But seeing him collaborate with his team and their Atlassian mentor to develop an AI-powered environmental monitoring system was incredible. The growth in his problem-solving abilities and leadership skills has been remarkable – this program truly prepares students for the real world of tech.",
-      author: "David",
-      role: "11th grade parent",
+      content: "I have only glowing things to say about Pike Teams. They've provided a fantastic opportunity for my kid in an extremely valuable area!",
+      author: "Scott Stafford",
+      role: "11th grade parent, Washington D.C.",
       backgroundColor: "#FDE35D"  // Yellow
     },
     {
@@ -54,9 +54,9 @@ const Testimonials = () => {
     },
     {
       type: 'text',
-      content: "Before joining the Python Games track, coding felt intimidating and distant. Working alongside engineers from Amazon changed everything! Our team developed a multiplayer educational game that's now being used in three local schools, and I've discovered a passion I never knew I had. This competition didn't just teach me to code – it showed me I could build things that matter.",
-      author: "Marcus",
-      role: "10th grader",
+      content: "Pike Teams provided a fun space to not only learn more about coding and gain experience but also have fun doing it! I can see myself doing similar projects on my own time once I am in college.",
+      author: "Bryson Parker",
+      role: "12th grader, North Carolina",
       backgroundColor: "#44E4A7"  // Green
     },
     {
@@ -81,9 +81,6 @@ const Testimonials = () => {
               <div className="text-card-content">
                 <p className="testimonial-content">{testimonial.content}</p>
                 <div className="testimonial-author">
-                  <div className="author-avatar">
-                    {/* Add avatar image later */}
-                  </div>
                   <div className="author-info">
                     <span className="author-name">{testimonial.author}</span>
                     <span className="author-role">{testimonial.role}</span>

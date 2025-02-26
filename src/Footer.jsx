@@ -6,7 +6,14 @@ const Footer = () => {
     <>
       <div className="info-banner">
         <span>Want more info before applying?</span>
-        <button className="info-session-btn">Join an info session</button>
+        <a 
+          href="https://lu.ma/piketeams" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="info-session-btn"
+        >
+          Join an info session
+        </a>
       </div>
       <footer className="footer">
         <div className="footer-content">
