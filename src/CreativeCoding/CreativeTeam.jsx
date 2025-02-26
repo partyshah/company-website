@@ -22,11 +22,11 @@ const CreativeTeam = () => {
       <div className="team-page">
         <CreativeTeamHeader />
         <CreativeTeamNextSession />
+        <CreativeCoach />
         <CreativeStudentJourney />
         <CreativeSchedule />
         <CreativeEligibility />
         <CreativeApplication />
-        <CreativeCoach />
         <CreativeTuition />
       </div>
       <Footer />

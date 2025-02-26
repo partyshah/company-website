@@ -22,11 +22,11 @@ const GameDevTeam = () => {
       <div className="team-page">
         <GameDevTeamHeader />
         <GameDevTeamNextSession />
+        <GameDevCoach />
         <GameDevStudentJourney />
         <GameDevSchedule />
         <GameDevEligibility />
         <GameDevApplication />
-        <GameDevCoach />
         <GameDevTuition />
       </div>
       <Footer />

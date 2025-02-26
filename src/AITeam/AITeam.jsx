@@ -22,11 +22,11 @@ const AITeam = () => {
       <div className="team-page">
         <AITeamHeader />
         <AITeamNextSession />
+        <AICoach />
         <AIStudentJourney />
         <AISchedule />
         <AIEligibility />
         <AIApplication />
-        <AICoach />
         <AITuition />
       </div>
       <Footer />

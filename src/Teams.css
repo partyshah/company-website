@@ -94,6 +94,13 @@
   font-family: 'Lexend', sans-serif;
   font-size: 20px;
   color: #0C1120;
+  margin-bottom: 8px;
+}
+
+.card-content .coach-name {
+  font-family: 'Lexend', sans-serif;
+  font-size: 14px;
+  color: #0C1120;
   margin-bottom: 12px;
 }
 
@@ -103,6 +110,14 @@
   color: #666;
   margin-bottom: 4px;
   line-height: 1.5;
+}
+
+.card-content .team-bio {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  color: #444;
+  font-style: italic;
 }
 
 @media (max-width: 1440px) {
