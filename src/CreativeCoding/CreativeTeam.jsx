@@ -9,6 +9,7 @@ import CreativeApplication from './CreativeApplication';
 import CreativeCoach from './CreativeCoach';
 import CreativeTuition from './CreativeTuition';
 import Footer from '../Footer';
+import MetaTags from '../components/MetaTags';
 import './CreativeTeam.css';
 
 const CreativeTeam = () => {
@@ -18,6 +19,11 @@ const CreativeTeam = () => {
 
   return (
     <div className="creative-team">
+      <MetaTags
+        title="Creative Coding Team | Learn Creative Coding"
+        description="Join our Creative Coding team and learn to create interactive art, animations, and creative projects using code. Perfect for students interested in combining art and technology."
+        image={`${window.location.origin}/og-images/creativecoding-og.png`}
+      />
       <Navbar />
       <div className="team-page">
         <CreativeTeamHeader />

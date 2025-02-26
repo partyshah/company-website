@@ -12,7 +12,7 @@ import Home from './Home';
 import GameDevTeam from './GameDevTeam/GameDevTeam';
 import NLPTeam from './NLPTeam/NLPTeam';
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import CreativeCoding from './CreativeCoding/CreativeTeam';
 import AITeam from './AITeam/AITeam';
 
@@ -40,15 +40,13 @@ import AITeam from './AITeam/AITeam';
 
 const App = () => {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/creativecodingteam" element={<CreativeCoding />} />
-        <Route path="/gamedevteam" element={<GameDevTeam />} />
-        <Route path="/nlpteam" element={<NLPTeam />} />
-        <Route path="/aiteam" element={<AITeam />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/creativecodingteam" element={<CreativeCoding />} />
+      <Route path="/gamedevteam" element={<GameDevTeam />} />
+      <Route path="/nlpteam" element={<NLPTeam />} />
+      <Route path="/aiteam" element={<AITeam />} />
+    </Routes>
   );
 };
 
