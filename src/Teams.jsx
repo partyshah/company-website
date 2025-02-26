@@ -4,15 +4,17 @@ import "./Teams.css";
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
 import img3 from './images/img3.png';
-import img4 from './images/img4.png';
+import creativeCoding from './images/creativecoding.png';
+import gameDev from './images/gamedev.png';
+import ai from './images/ai.png';
+import nlp from './images/nlp.png';
 import { useNavigate } from 'react-router-dom';
 const TeamCard = ({ level, title, sessions, backgroundPath, route }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
   const levelClass = isAdvanced ? "advanced" : "intro";
-  const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(route);
+    window.open(route, '_blank');
   };
 
   return (
@@ -38,27 +40,17 @@ const Teams = () => {
     {
       level: "Intro",
       title: "Creative Coding",
-      backgroundPath: img1,
-      route: "/creativecoding",
+      backgroundPath: creativeCoding,
+      route: "/creativecodingteam",
       sessions: [
         "June 9 - July 18th ; 6:30-8pm EST"
       ],
     },
     {
-      level: "Intro",
-      title: "Intro Python Visualization",
-      backgroundPath: img2,
-      route: "/creativecoding",
-      sessions: [
-        "June 9 - July 18th ; 6:30-8pm EST",
-        "July 7th - August 15th ; 6:30-8pm EST",
-      ],
-    },
-    {
       level: "Advanced",
       title: "Game Development Team",
-      backgroundPath: img3,
-      route: "/gamedev",
+      backgroundPath: gameDev,
+      route: "/gamedevteam",
       sessions: [
         "June 9 - July 18th ; 6:30-8pm EST",
         "July 7th - August 15th ; 6:30-8pm EST",
@@ -66,16 +58,16 @@ const Teams = () => {
     },
     {
       level: "Advanced",
-      title: "Game Development Projects",
-      backgroundPath: img4,
-      route: "/gamedev",
+      title: "AI Team",
+      backgroundPath: ai,
+      route: "/aiteam",
       sessions: ["June 9 - July 18th ; 6:30-8pm EST"],
     },
     {
       level: "Advanced",
-      title: "Game Development Advanced",
-      backgroundPath: img4,
-      route: "/gamedev",
+      title: "Natural Language Processing Team",
+      backgroundPath: nlp,
+      route: "/nlpteam",
       sessions: ["July 7th - August 15th ; 6:30-8pm EST"],
     },
   ];

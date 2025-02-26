@@ -1,58 +1,51 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Coaches.css';
-import vinayProfile from './images/vinayprofile.jpg';
+import golpariProfile from './images/golpari.png';
+import kuaiProfile from './images/kuai.png';
+import matanProfile from './images/matan.jpeg';
+import rickProfile from './images/rick.jpeg';
 
 const CoachCard = ({ name, bio, image }) => {
   return (
-    <div className="coach-card">
-      <div className="coach-image">
-        <img src={image} alt={name} />
-      </div>
-      <div className="coach-info">
-        <h3 className="coach-name">{name}</h3>
-        <p className="coach-bio">{bio}</p>
+    <div className="team-card">
+      <img src={image} alt={name} className="card-image" />
+      <div className="card-content">
+        <h3>{name}</h3>
+        <p>{bio}</p>
       </div>
     </div>
   );
 };
 
 const Coaches = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const coachesData = [
     {
-      name: "Coach 1",
-      bio: "Expert in web development and AI",
-      image: vinayProfile
+      name: "Coach Kuai",
+      bio: "Director of Engineering and previous software engineer at Google. Coaches students on natural language processing.",
+      image: kuaiProfile
     },
     {
-      name: "Coach 2",
-      bio: "Specializes in mobile app development",
-      image: vinayProfile
+      name: "Coach Golpari",
+      bio: "Studied computer sceince and art at University of Michigan and current engineer at Blizzard. Coaches students on game development.",
+      image: golpariProfile
     },
     {
-      name: "Coach 3",
-      bio: "Game development expert",
-      image: vinayProfile
+      name: "Coach Matan",
+      bio: "Former Amazon engineer and studied computer science at Brown University. Coaches students on artifical intelligence.",
+      image: matanProfile // Placeholder image
+    },
+    {
+      name: "Coach Rick",
+      bio: "Studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian. Coaches intro students on creative coding",
+      image: rickProfile // Placeholder image
     }
   ];
-
-  const nextCoach = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === coachesData.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const prevCoach = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? coachesData.length - 1 : prevIndex - 1
-    );
-  };
 
   return (
     <div className="coaches-container">
       <div className="coaches-content">
         <h1 className="coaches-header">Meet the coaches</h1>
-        <p className="coaches-subheader">Each coach comes from a unique background.</p>
+        <p className="coaches-subheader">Our coaches are all professional software engineers from top organizations who are experts in their topic areas:</p>
       </div>
       <div className="coaches-grid">
         {coachesData.map((coach, index) => (
@@ -64,14 +57,9 @@ const Coaches = () => {
           />
         ))}
       </div>
-      <div className="coaches-carousel">
-        <button className="carousel-button prev" onClick={prevCoach}>&lt;</button>
-        <CoachCard
-          name={coachesData[currentIndex].name}
-          bio={coachesData[currentIndex].bio}
-          image={coachesData[currentIndex].image}
-        />
-        <button className="carousel-button next" onClick={nextCoach}>&gt;</button>
+      <div className="coaches-cta">
+        <h2>Want to coach a team? Reach out!</h2>
+        <a href="#" className="cta-button">Learn more</a>
       </div>
     </div>
   );

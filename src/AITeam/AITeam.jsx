@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Navbar';
 import AITeamHeader from './AITeamHeader';
 import AITeamNextSession from './AITeamNextSession';
@@ -12,6 +12,10 @@ import Footer from '../Footer';
 import './AITeam.css';
 
 const AITeam = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="ai-team">
       <Navbar />

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/img1.png';
+import gameDev from '../images/gamedev.png';
 import './GameDevTeamHeader.css';
 
 const GameDevTeamHeader = () => {
@@ -15,7 +15,7 @@ const GameDevTeamHeader = () => {
         </div>
       </div>
       <div className="header-image">
-        <img src={img1} alt="GameDev Games" />
+        <img src={gameDev} alt="GameDev Games" />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/img1.png';
+import creativeCoding from '../images/creativecoding.png';
 import './CreativeTeamHeader.css';
 
 const CreativeTeamHeader = () => {
@@ -15,7 +15,7 @@ const CreativeTeamHeader = () => {
         </div>
       </div>
       <div className="header-image">
-        <img src={img1} alt="Creative Games" />
+        <img src={creativeCoding} alt="Creative Games" />
       </div>
     </div>
   );
