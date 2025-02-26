@@ -38,7 +38,7 @@ const TeamCard = ({ level, title, sessions, backgroundPath, route }) => {
 const Teams = () => {
   const teamData = [
     {
-      level: "Intro",
+      level: "Intermediate",
       title: "Creative Coding",
       backgroundPath: creativeCoding,
       route: "/creativecodingteam",
