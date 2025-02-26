@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import Home from './Home';
 // import PythonTeam from './PythonTeam/PythonTeam';
 import GameDevTeam from './GameDevTeam/GameDevTeam';
+import NLPTeam from './NLPTeam/NLPTeam';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import CreativeCoding from './CreativeCoding/CreativeTeam';
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/creativecoding" element={<CreativeCoding />} />
         <Route path="/gamedev" element={<GameDevTeam />} />
+        <Route path="/nlpteam" element={<NLPTeam />} />
         {/* <Route path="/aifinance" element={<GameDevTeam />} /> */}
       </Routes>
     </>
