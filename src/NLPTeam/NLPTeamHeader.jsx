@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/img1.png';
+import nlp from '../images/nlp.png';
 import './NLPTeamHeader.css';
 
 const NLPTeamHeader = () => {
@@ -15,7 +15,7 @@ const NLPTeamHeader = () => {
         </div>
       </div>
       <div className="header-image">
-        <img src={img1} alt="GameDev Games" />
+        <img src={nlp} alt="GameDev Games" />
       </div>
     </div>
   );

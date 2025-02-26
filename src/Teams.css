@@ -51,6 +51,7 @@
   width: 100%;
   height: 160px;
   object-fit: cover;
+  border-bottom: 2px solid #0C1120;
 }
 
 .card-image.intro {
@@ -67,22 +68,26 @@
   padding: 16px;
 }
 
-.level-badge {
+.teams .level-badge {
   display: inline-block;
   padding: 4px 12px;
-  border-radius: 16px;
+  border-radius: 0;
   font-family: 'Lexend', sans-serif;
   font-size: 14px;
+  font-weight: 700;
   margin-bottom: 12px;
   color: #0C1120;
+  border: 2px solid #0C1120;
+  box-shadow: none;
 }
 
-.level-badge.intro {
-  background-color: #FDE35D;
+.teams .team-card .card-content .level-badge.intro {
+  background-color: #FDE35D !important;
+  box-shadow: none !important;
 }
 
-.level-badge.advanced {
-  background-color: #DC92F5;
+.teams .team-card .card-content .level-badge.advanced {
+  background-color: #DC92F5 !important;
 }
 
 .card-content h3 {

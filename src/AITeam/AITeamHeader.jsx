@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/img1.png';
+import ai from '../images/ai.png';
 import './AITeamHeader.css';
 
 const AITeamHeader = () => {
@@ -15,7 +15,7 @@ const AITeamHeader = () => {
         </div>
       </div>
       <div className="header-image">
-        <img src={img1} alt="AI Development" />
+        <img src={ai} alt="AI Development" />
       </div>
     </div>
   );

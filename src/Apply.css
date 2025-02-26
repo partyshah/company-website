@@ -1,6 +1,6 @@
 .apply-section {
   width: 100%;
-  background-color: #FFE169;
+  background-color: #FFFDE0;
   padding: 4rem 0;
 }
 
@@ -28,27 +28,24 @@
 }
 
 .apply-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #FFE169;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid #0C1120;
+  background: #FDE35D;
+  box-shadow: 0px 2px 0px 0px #0C1120;
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
-  border-radius: 9999px;
+  font-weight: 700;
   text-decoration: none;
-  transition: all 0.3s ease;
-  border: 2px solid #0C1120;
-  font-size: 16px;
-  font-weight: 500;
-  box-shadow: 4px 4px 0px #0C1120;
-  position: relative;
-  top: 0;
-  left: 0;
+  width: fit-content;
 }
 
 .apply-button:hover {
-  box-shadow: 2px 2px 0px #0C1120;
-  top: 2px;
-  left: 2px;
+  box-shadow: 0px 1px 0px 0px #0C1120;
+  transform: translateY(1px);
 }
 
 @media (max-width: 767px) {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Navbar';
 import GameDevTeamHeader from './GameDevTeamHeader';
 import GameDevTeamNextSession from './GameDevTeamNextSession';
@@ -12,6 +12,10 @@ import Footer from '../Footer';
 import './GameDevTeam.css';
 
 const GameDevTeam = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="python-team">
       <Navbar />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Navbar';
 import CreativeTeamHeader from './CreativeTeamHeader';
 import CreativeTeamNextSession from './CreativeTeamNextSession';
@@ -12,6 +12,10 @@ import Footer from '../Footer';
 import './CreativeTeam.css';
 
 const CreativeTeam = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="creative-team">
       <Navbar />
