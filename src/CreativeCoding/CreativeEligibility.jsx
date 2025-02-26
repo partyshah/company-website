@@ -1,7 +1,7 @@
 import React from 'react';
-import './PythonEligibility.css';
+import './CreativeEligibility.css';
 
-const PythonEligibility = () => {
+const CreativeEligibility = () => {
   return (
     <div className="eligibility">
       <div className="eligibility-content">
@@ -26,4 +26,4 @@ const PythonEligibility = () => {
   );
 };
 
-export default PythonEligibility; 
+export default CreativeEligibility; 

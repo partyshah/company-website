@@ -1,7 +1,7 @@
 import React from 'react';
-import './PythonTeamNextSession.css';
+import './CreativeTeamNextSession.css';
 
-const PythonTeamNextSession = () => {
+const CreativeTeamNextSession = () => {
   return (
     <div className="next-session">
       <h2>When's the next session?</h2>
@@ -16,4 +16,4 @@ const PythonTeamNextSession = () => {
   );
 };
 
-export default PythonTeamNextSession; 
+export default CreativeTeamNextSession; 

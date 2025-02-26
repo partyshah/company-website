@@ -1,7 +1,7 @@
 import React from 'react';
-import './AIApplication.css';
+import './CreativeApplication.css';
 
-const AIApplication = () => {
+const CreativeApplication = () => {
   const applicationSteps = [
     {
       step: '1',
@@ -41,4 +41,4 @@ const AIApplication = () => {
   );
 };
 
-export default AIApplication; 
+export default CreativeApplication; 

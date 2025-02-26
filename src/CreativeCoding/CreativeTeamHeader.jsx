@@ -1,8 +1,8 @@
 import React from 'react';
 import img1 from '../images/img1.png';
-import './PythonTeamHeader.css';
+import './CreativeTeamHeader.css';
 
-const PythonTeamHeader = () => {
+const CreativeTeamHeader = () => {
   return (
     <div className="team-header">
       <div className="header-content">
@@ -15,10 +15,10 @@ const PythonTeamHeader = () => {
         </div>
       </div>
       <div className="header-image">
-        <img src={img1} alt="Python Games" />
+        <img src={img1} alt="Creative Games" />
       </div>
     </div>
   );
 };
 
-export default PythonTeamHeader; 
+export default CreativeTeamHeader; 

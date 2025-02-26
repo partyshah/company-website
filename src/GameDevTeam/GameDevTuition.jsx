@@ -1,7 +1,7 @@
 import React from 'react';
-import './AITuition.css';
+import './GameDevTuition.css';
 
-const AITuition = () => {
+const GameDevTuition = () => {
   return (
     <div className="tuition">
       <h2>Tuition & application</h2>
@@ -11,20 +11,14 @@ const AITuition = () => {
         <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
         <button className="tuition-apply-button">Apply now</button>
         <div className="session-cards">
-          <div className="session-card">
-            <p className="session-date">June 2–August 15</p>
-            <h3>Session 1</h3>
-            <p className="session-time">Tuesdays and Thursdays, 6:30–8 PM EST</p>
-          </div>
-          <div className="session-card">
-            <p className="session-date">June 2–August 15</p>
-            <h3>Session 2</h3>
-            <p className="session-time">Tuesdays and Thursdays, 9:00–10:30 PM EST</p>
-          </div>
+        <div className="session-card">
+          <h3>July 9 - July 18</h3>
+          <p className="session-time">Tuesdays and Thursdays, 6–8 PM PST</p>
         </div>
+      </div>
       </div>
     </div>
   );
 };
 
-export default AITuition; 
+export default GameDevTuition; 

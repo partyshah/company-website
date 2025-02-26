@@ -1,4 +1,4 @@
-.student-journey {
+.gamedev-student-journey {
   background-color: #FFFDE0;
   padding: 60px 120px;
   display: flex;
@@ -7,13 +7,12 @@
   border-top: 2px solid #0C1120;
 }
 
-.journey-content {
+.gamedev-journey-content {
   max-width: 1200px;
-  margin: 0 auto;
   width: 100%;
 }
 
-.journey-content h2 {
+.gamedev-journey-content h2 {
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
   font-size: 48px;
@@ -22,19 +21,17 @@
   text-align: center;
 }
 
-.journey-content > p {
+.gamedev-journey-content > p {
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 40px 0;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  text-align: left;
+  white-space: normal;
 }
 
-.journey-steps {
+.gamedev-journey-steps {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -43,7 +40,7 @@
   padding: 24px;
 }
 
-.journey-step {
+.gamedev-journey-step {
   background-color: white;
   border: 2px solid #0C1120;
   border-radius: 8px;
@@ -53,7 +50,7 @@
   align-items: flex-start;
 }
 
-.journey-step h3 {
+.gamedev-journey-step h3 {
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
   font-size: 24px;
@@ -62,7 +59,7 @@
   min-width: 100px;
 }
 
-.journey-step p {
+.gamedev-journey-step p {
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
   font-size: 20px;
@@ -72,46 +69,46 @@
 }
 
 @media (max-width: 1440px) {
-  .student-journey {
+  .gamedev-student-journey {
     padding: 60px 80px;
   }
 }
 
 @media (max-width: 1024px) {
-  .student-journey {
+  .gamedev-student-journey {
     padding: 40px 34px;
   }
 
-  .journey-content h2 {
+  .gamedev-journey-content h2 {
     font-size: 36px;
     margin-bottom: 32px;
   }
 
-  .journey-content > p {
+  .gamedev-journey-content > p {
     font-size: 18px;
     line-height: 28px;
   }
 }
 
 @media (max-width: 428px) {
-  .student-journey {
+  .gamedev-student-journey {
     padding: 32px 20px;
   }
 
-  .journey-content h2 {
+  .gamedev-journey-content h2 {
     font-size: 32px;
   }
 
-  .journey-steps {
+  .gamedev-journey-steps {
     padding: 16px;
   }
 
-  .journey-step {
+  .gamedev-journey-step {
     padding: 16px;
     gap: 16px;
   }
 
-  .journey-step h3 {
+  .gamedev-journey-step h3 {
     min-width: 80px;
   }
 } 

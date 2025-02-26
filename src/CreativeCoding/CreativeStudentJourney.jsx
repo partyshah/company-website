@@ -1,7 +1,7 @@
 import React from 'react';
-import './PythonStudentJourney.css';
+import './CreativeStudentJourney.css';
 
-const PythonStudentJourney = () => {
+const CreativeStudentJourney = () => {
   const journeySteps = [
     {
       week: 'Week 1',
@@ -26,13 +26,13 @@ const PythonStudentJourney = () => {
   ];
 
   return (
-    <div className="python-student-journey">
-      <div className="python-journey-content">
+    <div className="creative-student-journey">
+      <div className="creative-journey-content">
         <h2>The student journey</h2>
         <p>On this team, you will work with a team to learn the fundamentals of coding and build a creative and artistic web animation. Your coach and project lead will teach you the javascript through the p5.js library, work with you to decide features, and help you debug. Becoming a project lead is invite only and will be based on the quality of your application.</p>
-        <div className="python-journey-steps">
+        <div className="creative-journey-steps">
           {journeySteps.map((step, index) => (
-            <div key={index} className="python-journey-step">
+            <div key={index} className="creative-journey-step">
               <h3>{step.week}</h3>
               <p>{step.description}</p>
             </div>
@@ -43,4 +43,4 @@ const PythonStudentJourney = () => {
   );
 };
 
-export default PythonStudentJourney; 
+export default CreativeStudentJourney; 
