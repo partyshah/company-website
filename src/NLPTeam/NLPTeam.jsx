@@ -9,7 +9,6 @@ import NLPApplication from './NLPApplication';
 import NLPCoach from './NLPCoach';
 import NLPTuition from './NLPTuition';
 import Footer from '../Footer';
-import MetaTags from '../components/MetaTags';
 import './NLPTeam.css';
 
 const NLPTeam = () => {
@@ -19,11 +18,6 @@ const NLPTeam = () => {
 
   return (
     <div className="nlp-team">
-      <MetaTags
-        title="Natural Language Processing Team | Pike Teams"
-        description="Join our NLP team and learn to build AI systems that understand and generate human language. Perfect for students interested in artificial intelligence and language technology."
-        image="https://www.piketeams.com/og-images/nlp-og.png"
-      />
       <Navbar />
       <div className="team-page">
         <NLPTeamHeader />
