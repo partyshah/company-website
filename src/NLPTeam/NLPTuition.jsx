@@ -1,0 +1,24 @@
+import React from 'react';
+import './NLPTuition.css';
+
+const NLPTuition = () => {
+  return (
+    <div className="tuition">
+      <h2>Tuition & application</h2>
+      <div className="tuition-content">
+        <p className="tuition-cost">The cost is $1000 for the 6 week program (24 meeting hours)</p>
+        <p className="tuition-note">With that said, accessibility is very important to us.</p>
+        <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
+        <button className="tuition-apply-button">Apply now</button>
+        <div className="session-cards">
+          <div className="session-card">
+            <h3>July 8 - July 17</h3>
+            <p className="session-time">Tuesdays and Thursdays, 6–8 PM PST</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default NLPTuition; 
