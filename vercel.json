@@ -2,6 +2,22 @@
   "version": 2,
   "rewrites": [
     { 
+      "source": "/gamedevteam",
+      "destination": "/gamedevteam.html"
+    },
+    { 
+      "source": "/creativecoding",
+      "destination": "/creativecoding.html"
+    },
+    { 
+      "source": "/aiteam",
+      "destination": "/aiteam.html"
+    },
+    { 
+      "source": "/nlpteam",
+      "destination": "/nlpteam.html"
+    },
+    { 
       "source": "/(.*)", 
       "destination": "/index.html" 
     }
@@ -16,5 +32,10 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "middleware": {
+      "maxDuration": 10
+    }
+  }
 } 
