@@ -9,6 +9,7 @@ import AIApplication from './AIApplication';
 import AICoach from './AICoach';
 import AITuition from './AITuition';
 import Footer from '../Footer';
+import MetaTags from '../components/MetaTags';
 import './AITeam.css';
 
 const AITeam = () => {
@@ -18,6 +19,11 @@ const AITeam = () => {
 
   return (
     <div className="ai-team">
+      <MetaTags
+        title="Artificial Intelligence Team | Pike Teams"
+        description="Join our AI team and learn to build intelligent systems, neural networks, and machine learning models. Perfect for students interested in the cutting edge of technology."
+        image="https://www.piketeams.com/og-images/ai-og.png"
+      />
       <Navbar />
       <div className="team-page">
         <AITeamHeader />

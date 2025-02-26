@@ -1,35 +1,5 @@
 {
-  "routes": [
-    {
-      "src": "/gamedevteam",
-      "headers": {
-        "x-custom-header": "gamedev",
-        "og:title": "Game Development Team | Pike Teams",
-        "og:description": "Join our Game Development team and learn to create your own video games. Perfect for students interested in game design, programming, and interactive entertainment.",
-        "og:image": "https://www.piketeams.com/og-images/gamedev-og.png"
-      },
-      "continue": true
-    },
-    {
-      "src": "/nlpteam",
-      "headers": {
-        "x-custom-header": "nlp",
-        "og:title": "Natural Language Processing Team | Pike Teams",
-        "og:description": "Join our NLP team and learn to build AI systems that understand and generate human language. Perfect for students interested in artificial intelligence and language technology.",
-        "og:image": "https://www.piketeams.com/og-images/nlp-og.png"
-      },
-      "continue": true
-    },
-    {
-      "src": "/aiteam",
-      "headers": {
-        "x-custom-header": "ai",
-        "og:title": "Artificial Intelligence Team | Pike Teams",
-        "og:description": "Join our AI team and learn to build intelligent systems, neural networks, and machine learning models. Perfect for students interested in the cutting edge of technology.",
-        "og:image": "https://www.piketeams.com/og-images/ai-og.png"
-      },
-      "continue": true
-    },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 } 
