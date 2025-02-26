@@ -12,32 +12,31 @@ import rick from './images/rick.jpeg';
 import golpari from './images/golpari.png'; 
 import matan from './images/matan.jpeg';
 import kuai from './images/kuai.png';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 const TeamCard = ({ level, title, sessions, backgroundPath, route, bio, coach }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
   const levelClass = isAdvanced ? "advanced" : "intro";
 
-  const handleClick = () => {
-    window.open(route, '_blank');
-  };
-
   return (
-    <div className="team-card" onClick={handleClick} style={{ cursor: 'pointer' }}>
-      <img 
-        src={backgroundPath} 
-        alt={title} 
-        className={`card-image ${levelClass}`}
-      />
-      <div className="card-content">
-        <div className={`level-badge ${levelClass}`}>{level}</div>
-        <h3>{title}</h3>
-        {coach && <p className="coach-name"><strong>Coach</strong> <strong>{coach}</strong></p>}
-        {sessions.map((session, index) => (
-          <p key={index}>{session}</p>
-        ))}
-        {bio && <p className="team-bio">{bio}</p>}
+    <Link to={route} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <div className="team-card" style={{ cursor: 'pointer' }}>
+        <img 
+          src={backgroundPath} 
+          alt={title} 
+          className={`card-image ${levelClass}`}
+        />
+        <div className="card-content">
+          <div className={`level-badge ${levelClass}`}>{level}</div>
+          <h3>{title}</h3>
+          {coach && <p className="coach-name"><strong>Coach</strong> <strong>{coach}</strong></p>}
+          {sessions.map((session, index) => (
+            <p key={index}>{session}</p>
+          ))}
+          {bio && <p className="team-bio">{bio}</p>}
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -72,7 +71,7 @@ const Teams = () => {
       coach: "Matan Gans",
       route: "/aiteam",
       sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 6-8pm EST"],
-      bio: "Coach Matan is a former Amazon engineer and studied computer science at Brown University.",
+      bio: "Coach Matan is a former Amazon engineer and studied computer science at Brown University. He has been teaching and mentoring students in programming for over 3 years.",
     },
     {
       level: "Advanced",

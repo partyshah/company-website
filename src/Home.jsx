@@ -14,7 +14,7 @@ function Home() {
     <div className="App">
       <Navbar />
       <LandingHeader />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <Teams />
       {/* <Coaches /> */}
       <Testimonials />
