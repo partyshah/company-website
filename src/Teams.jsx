@@ -52,7 +52,7 @@ const Teams = () => {
   const teamData = [
     {
       level: "Intermediate",
-      title: "Creative Coding",
+      title: "Creative Coding Team",
       backgroundPath: rick,
       coach: "Rick Zhang",
       route: "/creativecodingteam",

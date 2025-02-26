@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <footer className="footer">
         <div className="footer-content">
-          <span>The Coding Games</span>
+          <span>Pike Teams</span>
           <div className="social-icons">
             <a href="#" aria-label="Facebook">
               <i className="fa-brands fa-facebook-f"></i>
