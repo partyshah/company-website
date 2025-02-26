@@ -1,25 +1,79 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/gamedevteam",
-      "dest": "/gamedevteam.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/gamedevteam",
+      "headers": [
+        {
+          "key": "x-og-title",
+          "value": "Game Development Team | Pike Teams"
+        },
+        {
+          "key": "x-og-description",
+          "value": "Join a 15 person team of experienced high school computer science students, get coached by an engineer from Blizzard, and build your own video game to win the end of season competition."
+        },
+        {
+          "key": "x-og-image",
+          "value": "https://www.piketeams.com/og-images/gamedev-og.png"
+        }
+      ]
     },
     {
-      "src": "/creativecoding",
-      "dest": "/creativecoding.html"
+      "source": "/creativecoding",
+      "headers": [
+        {
+          "key": "x-og-title",
+          "value": "Creative Coding Team | Pike Teams"
+        },
+        {
+          "key": "x-og-description",
+          "value": "Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition."
+        },
+        {
+          "key": "x-og-image",
+          "value": "https://www.piketeams.com/og-images/creativecoding-og.png"
+        }
+      ]
     },
     {
-      "src": "/aiteam",
-      "dest": "/aiteam.html"
+      "source": "/aiteam",
+      "headers": [
+        {
+          "key": "x-og-title",
+          "value": "Artificial Intelligence Team | Pike Teams"
+        },
+        {
+          "key": "x-og-description",
+          "value": "Join a 15 person team of experienced high school computer science students, get coached by a former Amazon engineer, and build advanced AI systems to win the end of season competition."
+        },
+        {
+          "key": "x-og-image",
+          "value": "https://www.piketeams.com/og-images/ai-og.png"
+        }
+      ]
     },
     {
-      "src": "/nlpteam",
-      "dest": "/nlpteam.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/nlpteam",
+      "headers": [
+        {
+          "key": "x-og-title",
+          "value": "Natural Language Processing Team | Pike Teams"
+        },
+        {
+          "key": "x-og-description",
+          "value": "Join a 15 person team of experienced high school computer science students, get coached by a Google engineer, and build advanced language AI systems to win the end of season competition."
+        },
+        {
+          "key": "x-og-image",
+          "value": "https://www.piketeams.com/og-images/nlp-og.png"
+        }
+      ]
     }
   ]
 } 
