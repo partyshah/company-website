@@ -32,10 +32,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "middleware": {
-      "maxDuration": 10
-    }
-  }
+  ]
 } 
