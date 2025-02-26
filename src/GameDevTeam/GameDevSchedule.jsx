@@ -1,11 +1,11 @@
 import React from 'react';
-import './PythonSchedule.css';
+import './GameDevSchedule.css';
 
-const PythonSchedule = () => {
+const GameDevSchedule = () => {
   const scheduleItems = [
     {
       duration: '25 mins',
-      description: 'Lesson of the day (p5.js functions, javascript fundamentals)'
+      description: 'Lesson of the day (C# fundamentals, Unity fundamentals)'
     },
     {
       duration: '60 mins',
@@ -34,4 +34,4 @@ const PythonSchedule = () => {
   );
 };
 
-export default PythonSchedule; 
+export default GameDevSchedule; 

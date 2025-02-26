@@ -1,7 +1,7 @@
 import React from 'react';
-import './PythonTuition.css';
+import './CreativeTuition.css';
 
-const PythonTuition = () => {
+const CreativeTuition = () => {
   return (
     <div className="tuition">
       <h2>Tuition & application</h2>
@@ -16,15 +16,10 @@ const PythonTuition = () => {
             <h3>Session 1</h3>
             <p className="session-time">Tuesdays and Thursdays, 6:30–8 PM EST</p>
           </div>
-          <div className="session-card">
-            <p className="session-date">June 2–August 15</p>
-            <h3>Session 2</h3>
-            <p className="session-time">Tuesdays and Thursdays, 9:00–10:30 PM EST</p>
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default PythonTuition; 
+export default CreativeTuition; 

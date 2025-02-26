@@ -39,7 +39,7 @@ const Teams = () => {
       level: "Intro",
       title: "Creative Coding",
       backgroundPath: img1,
-      route: "/pythonteam",
+      route: "/creativecoding",
       sessions: [
         "June 9 - July 18th ; 6:30-8pm EST"
       ],
@@ -48,7 +48,7 @@ const Teams = () => {
       level: "Intro",
       title: "Intro Python Visualization",
       backgroundPath: img2,
-      route: "/pythonteam",
+      route: "/creativecoding",
       sessions: [
         "June 9 - July 18th ; 6:30-8pm EST",
         "July 7th - August 15th ; 6:30-8pm EST",
@@ -56,9 +56,9 @@ const Teams = () => {
     },
     {
       level: "Advanced",
-      title: "Advanced AI Team",
+      title: "Game Development Team",
       backgroundPath: img3,
-      route: "/aiteam",
+      route: "/gamedev",
       sessions: [
         "June 9 - July 18th ; 6:30-8pm EST",
         "July 7th - August 15th ; 6:30-8pm EST",
@@ -66,14 +66,14 @@ const Teams = () => {
     },
     {
       level: "Advanced",
-      title: "AI Financial Products",
+      title: "Game Development Projects",
       backgroundPath: img4,
-      route: "/aifinance",
+      route: "/gamedev",
       sessions: ["June 9 - July 18th ; 6:30-8pm EST"],
     },
     {
       level: "Advanced",
-      title: "Game Development",
+      title: "Game Development Advanced",
       backgroundPath: img4,
       route: "/gamedev",
       sessions: ["July 7th - August 15th ; 6:30-8pm EST"],

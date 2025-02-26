@@ -1,7 +1,7 @@
 import React from 'react';
-import './AIEligibility.css';
+import './GameDevEligibility.css';
 
-const AIEligibility = () => {
+const GameDevEligibility = () => {
   return (
     <div className="eligibility">
       <div className="eligibility-content">
@@ -26,4 +26,4 @@ const AIEligibility = () => {
   );
 };
 
-export default AIEligibility; 
+export default GameDevEligibility; 

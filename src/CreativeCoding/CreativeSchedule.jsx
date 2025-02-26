@@ -1,11 +1,11 @@
 import React from 'react';
-import './AISchedule.css';
+import './CreativeSchedule.css';
 
-const AISchedule = () => {
+const CreativeSchedule = () => {
   const scheduleItems = [
     {
       duration: '25 mins',
-      description: 'Lesson of the day (Fetch data from a public API, new data structures)'
+      description: 'Lesson of the day (p5.js functions, javascript fundamentals)'
     },
     {
       duration: '60 mins',
@@ -34,4 +34,4 @@ const AISchedule = () => {
   );
 };
 
-export default AISchedule; 
+export default CreativeSchedule; 

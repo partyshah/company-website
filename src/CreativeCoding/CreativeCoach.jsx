@@ -1,8 +1,8 @@
 import React from 'react';
-import './PythonCoach.css';
+import './CreativeCoach.css';
 import rickProfile from '../images/rick.jpeg';
 
-const PythonCoach = () => {
+const CreativeCoach = () => {
   return (
     <div className="coach">
       <div className="coach-content">
@@ -21,4 +21,4 @@ const PythonCoach = () => {
   );
 };
 
-export default PythonCoach; 
+export default CreativeCoach; 

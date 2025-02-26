@@ -1,7 +1,7 @@
 import React from 'react';
-import './PythonApplication.css';
+import './GameDevApplication.css';
 
-const PythonApplication = () => {
+const GameDevApplication = () => {
   const applicationSteps = [
     {
       step: '1',
@@ -41,4 +41,4 @@ const PythonApplication = () => {
   );
 };
 
-export default PythonApplication; 
+export default GameDevApplication; 
