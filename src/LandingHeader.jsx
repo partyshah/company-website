@@ -11,13 +11,16 @@ const LandingHeader = () => {
       <div className="content">
         <h1>Build real software products, in a team</h1>
         <p className="header-description">
-          The Pike App Challenge is an intense 6-week competition for top
-          high school computer science students. Join a team led by engineers
-          from Google, Amazon, and Atlassian.
+        Pike matches top high school computer science students with teams coached by engineers from Google, Amazon, and Atlassian to compete in a 6-week app challenge competition
         </p>
         <div className="cta-container">
           <p className="date">Summer 2025</p>
-          <a href="#apply" className="cta-button">
+          <a 
+            href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cta-button"
+          >
             Apply now
           </a>
         </div>

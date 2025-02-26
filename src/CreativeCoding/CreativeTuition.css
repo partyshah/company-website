@@ -59,6 +59,7 @@
   font-size: 16px;
   color: #0C1120;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .tuition-apply-button:hover {

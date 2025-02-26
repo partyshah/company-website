@@ -13,8 +13,13 @@ import golpari from './images/golpari.png';
 import matan from './images/matan.jpeg';
 import kuai from './images/kuai.png';
 import { Link } from 'react-router-dom';
+// Import session data
+import { sessionData as creativeSessionData } from './CreativeCoding/creativeSessionData';
+import { sessionData as gameDevSessionData } from './GameDevTeam/gameDevSessionData';
+import { sessionData as aiSessionData } from './AITeam/aiSessionData';
+import { sessionData as nlpSessionData } from './NLPTeam/nlpSessionData';
 
-const TeamCard = ({ level, title, sessions, backgroundPath, route, bio, coach }) => {
+const TeamCard = ({ level, title, backgroundPath, route, bio, coach, sessionData }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
   const levelClass = isAdvanced ? "advanced" : "intro";
 
@@ -30,9 +35,12 @@ const TeamCard = ({ level, title, sessions, backgroundPath, route, bio, coach })
           <div className={`level-badge ${levelClass}`}>{level}</div>
           <h3>{title}</h3>
           {coach && <p className="coach-name"><strong>Coach</strong> <strong>{coach}</strong></p>}
-          {sessions.map((session, index) => (
-            <p key={index}>{session}</p>
-          ))}
+          <p><strong>Dates:</strong> {sessionData.map((session, index) => (
+            <span key={session.id}>
+              {index > 0 ? ', ' : ''}{session.dates}
+            </span>
+          ))}</p>
+          <p><strong>Meeting Times:</strong> {sessionData[0].time}</p>
           {bio && <p className="team-bio">{bio}</p>}
         </div>
       </div>
@@ -48,9 +56,7 @@ const Teams = () => {
       backgroundPath: rick,
       coach: "Rick Zhang",
       route: "/creativecodingteam",
-      sessions: [
-        "June 9 - July 18th. Mondays and Wednesdays, 6-8pm EST"
-      ],
+      sessionData: creativeSessionData,
       bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
     },
     {
@@ -59,9 +65,7 @@ const Teams = () => {
       backgroundPath: golpari,
       coach: "Golpari Abari",
       route: "/gamedevteam",
-      sessions: [
-        "June 9 - July 18th. Tuesdays and Thursdays, 6-8pm PST",
-      ],
+      sessionData: gameDevSessionData,
       bio: "Coach Golpari studied computer science and art at University of Michigan and is a current software engineer at Blizzard Entertainment.",
     },
     {
@@ -70,7 +74,7 @@ const Teams = () => {
       backgroundPath: matan,
       coach: "Matan Gans",
       route: "/aiteam",
-      sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 6-8pm EST"],
+      sessionData: aiSessionData,
       bio: "Coach Matan is a former Amazon engineer and studied computer science at Brown University. He has been teaching and mentoring students in programming for over 3 years.",
     },
     {
@@ -79,11 +83,10 @@ const Teams = () => {
       backgroundPath: kuai,
       coach: "Kuai Yu",
       route: "/nlpteam",
-      sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 5-7pm PST"],
+      sessionData: nlpSessionData,
       bio: "Coach Kuai is a director of engineering at a startup in the Bay Area and was previously a software engineer at Google.",
     },
   ];
-
 
   return (
     <section className="teams">
