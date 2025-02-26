@@ -7,6 +7,7 @@ import Coaches from './Coaches';
 import Testimonials from './Testimonials';
 import Apply from './Apply';
 import Footer from "./Footer";
+import BrandBar from './BrandBar';
 import React from 'react';
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Navbar />
       <LandingHeader />
       {/* <HowItWorks /> */}
+      <BrandBar />
       <Teams />
       {/* <Coaches /> */}
       <Testimonials />

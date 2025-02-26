@@ -1,8 +1,8 @@
 import React from "react";
-import stock1 from "./images/stock1.jpg";
-import stock2 from "./images/stock2.jpg";
-import stock3 from "./images/stock3.jpg";
-import stock4 from "./images/stock4.jpg";
+import stock1 from "./images/stockimages/stock1.png";
+import stock2 from "./images/stockimages/stock2.png";
+import stock3 from "./images/stockimages/stock3.png";
+import stock4 from "./images/stockimages/stock4.png";
 import "./LandingHeader.css";
 
 const LandingHeader = () => {
@@ -26,21 +26,21 @@ const LandingHeader = () => {
         <div className="imageColumn">
           <div 
             className="gridImage"
-            style={{ backgroundImage: `url(${stock3})` }}
+            style={{ backgroundImage: `url(${stock2})` }}
           />
           <div 
             className="gridImage"
-            style={{ backgroundImage: `url(${stock2})` }}
+            style={{ backgroundImage: `url(${stock3})` }}
           />
         </div>
         <div className="imageColumn">
           <div 
             className="gridImage"
-            style={{ backgroundImage: `url(${stock4})` }}
+            style={{ backgroundImage: `url(${stock1})` }}
           />
           <div 
             className="gridImage"
-            style={{ backgroundImage: `url(${stock1})` }}
+            style={{ backgroundImage: `url(${stock4})` }}
           />
         </div>
       </div>
