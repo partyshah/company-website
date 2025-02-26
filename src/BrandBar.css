@@ -33,11 +33,12 @@
   width: auto;
   max-width: 300px;
   object-fit: contain;
+  align-self: center;
 }
 
 /* Specific adjustments for logos that need different sizing */
 .brand-logo[alt="Atlassian"] {
-  height: 70px;
+  height: 45px;
 }
 
 .brand-logo[alt="Brown University"] {
@@ -53,8 +54,8 @@
 }
 
 .brand-logo[alt="Amazon"] {
-  height: 120px;
-  margin-top: -15px; /* Optical adjustment since Amazon logo has extra space above */
+  height: 160px;
+  margin-top: 0;
 }
 
 @media (max-width: 1400px) {
@@ -77,7 +78,7 @@
   }
 
   .brand-logo[alt="Atlassian"] {
-    height: 60px;
+    height: 35px;
   }
 
   .brand-logo[alt="Brown University"] {
@@ -90,8 +91,8 @@
   }
 
   .brand-logo[alt="Amazon"] {
-    height: 100px;
-    margin-top: -12px;
+    height: 130px;
+    margin-top: 0;
   }
 }
 
@@ -120,12 +121,16 @@
   }
 
   .brand-logo[alt="Amazon"] {
-    height: 75px;
-    margin-top: -8px;
+    height: 95px;
+    margin-top: 0;
   }
 
   .brand-logo[alt="DraftKings"],
   .brand-logo[alt="University of Michigan"] {
     height: 55px;
+  }
+
+  .brand-logo[alt="Atlassian"] {
+    height: 30px;
   }
 } 
