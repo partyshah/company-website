@@ -14,6 +14,7 @@ import NLPTeam from './NLPTeam/NLPTeam';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import CreativeCoding from './CreativeCoding/CreativeTeam';
+import AITeam from './AITeam/AITeam';
 
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -45,7 +46,7 @@ const App = () => {
         <Route path="/creativecoding" element={<CreativeCoding />} />
         <Route path="/gamedev" element={<GameDevTeam />} />
         <Route path="/nlpteam" element={<NLPTeam />} />
-        {/* <Route path="/aifinance" element={<GameDevTeam />} /> */}
+        <Route path="/aiteam" element={<AITeam />} />
       </Routes>
     </>
   );
