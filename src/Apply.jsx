@@ -8,7 +8,7 @@ const Apply = () => {
         <h2 className="apply-title">Apply to join today!</h2>
         <p className="apply-description">We're currently accepting applications for our summer teams. Apply now to secure your spot!</p>
         <a 
-          href="https://google.com" 
+          href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form" 
           target="_blank" 
           rel="noopener noreferrer"
           className="apply-button"

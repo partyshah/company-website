@@ -1,5 +1,6 @@
 import React from 'react';
 import './CreativeTuition.css';
+import { sessionData } from './creativeSessionData';
 
 const CreativeTuition = () => {
   return (
@@ -9,12 +10,22 @@ const CreativeTuition = () => {
         <p className="tuition-cost">The cost is $1000 for the 6 week program (24 meeting hours)</p>
         <p className="tuition-note">With that said, accessibility is very important to us.</p>
         <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
-        <button className="tuition-apply-button">Apply now</button>
+        <a 
+          href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tuition-apply-button"
+        >
+          Apply now
+        </a>
         <div className="session-cards">
-          <div className="session-card">
-            <h3>June 9 – July 18</h3>
-            <p className="session-time">Mondays and Wednesdays, 6–8 PM EST</p>
-          </div>
+          {sessionData.map(session => (
+            <div key={session.id} className="session-card">
+              <p className="session-date">{session.title}</p>
+              <h3>{session.dates}</h3>
+              <p className="session-time">{session.time}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

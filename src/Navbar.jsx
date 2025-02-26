@@ -14,9 +14,14 @@ const Navbar = () => {
       <div className="navbar-brand" onClick={handleHomeClick} style={{ cursor: 'pointer' }}>
         Pike Teams
       </div>
-      <button className="navbar-apply-button">
+      <a 
+        href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navbar-apply-button"
+      >
         Apply now
-      </button>
+      </a>
     </nav>
   );
 };
