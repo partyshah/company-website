@@ -29,22 +29,23 @@ const teams = {
   }
 };
 
-// Read the template HTML file
-const template = fs.readFileSync(path.join(__dirname, '../public/index.html'), 'utf8');
-
-// Create the build directory if it doesn't exist
+// Read the built index.html file
 const buildDir = path.join(__dirname, '../build');
-if (!fs.existsSync(buildDir)) {
-  fs.mkdirSync(buildDir);
-}
+const indexHtml = fs.readFileSync(path.join(buildDir, 'index.html'), 'utf8');
 
 // Generate HTML files for each route
 Object.entries(teams).forEach(([route, data]) => {
-  const html = template
-    .replace(/%OG_TITLE%/g, data.title)
-    .replace(/%OG_DESCRIPTION%/g, data.description)
-    .replace(/%OG_IMAGE%/g, data.image)
-    .replace(/%OG_URL%/g, `https://www.piketeams.com${route}`);
+  const html = indexHtml
+    .replace(/<title>.*?<\/title>/, `<title>${data.title}</title>`)
+    .replace(/<meta name="description".*?>/, `<meta name="description" content="${data.description}" />`)
+    .replace(/<meta property="og:title".*?>/, `<meta property="og:title" content="${data.title}" />`)
+    .replace(/<meta property="og:description".*?>/, `<meta property="og:description" content="${data.description}" />`)
+    .replace(/<meta property="og:image".*?>/, `<meta property="og:image" content="${data.image}" />`)
+    .replace(/<meta property="og:url".*?>/, `<meta property="og:url" content="https://www.piketeams.com${route}" />`)
+    .replace(/<meta property="twitter:title".*?>/, `<meta property="twitter:title" content="${data.title}" />`)
+    .replace(/<meta property="twitter:description".*?>/, `<meta property="twitter:description" content="${data.description}" />`)
+    .replace(/<meta property="twitter:image".*?>/, `<meta property="twitter:image" content="${data.image}" />`)
+    .replace(/<meta property="twitter:url".*?>/, `<meta property="twitter:url" content="https://www.piketeams.com${route}" />`);
 
   const outputPath = path.join(buildDir, route === '/' ? 'index.html' : `${route.slice(1)}.html`);
   fs.writeFileSync(outputPath, html);
