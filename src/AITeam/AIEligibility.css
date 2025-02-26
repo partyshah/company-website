@@ -1,0 +1,96 @@
+.eligibility {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #0C1120;
+}
+
+.eligibility-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eligibility-content h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+}
+
+.requirements, .restrictions {
+  margin-bottom: 40px;
+}
+
+.eligibility-content h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.eligibility-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eligibility-content li {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.eligibility-content li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+.eligibility-content li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1440px) {
+  .eligibility {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .eligibility {
+    padding: 40px 34px;
+  }
+
+  .eligibility-content h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .eligibility-content h3 {
+    font-size: 20px;
+  }
+
+  .eligibility-content li {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 428px) {
+  .eligibility {
+    padding: 32px 20px;
+  }
+
+  .eligibility-content h2 {
+    font-size: 32px;
+  }
+} 
