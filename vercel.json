@@ -1,7 +1,22 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    {
+      "src": "/gamedevteam",
+      "dest": "/api/_middleware"
+    },
+    {
+      "src": "/nlpteam",
+      "dest": "/api/_middleware"
+    },
+    {
+      "src": "/aiteam",
+      "dest": "/api/_middleware"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ],
   "headers": [
     {
