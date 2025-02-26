@@ -28,6 +28,7 @@
   padding: 0;
   grid-template-columns: 400px 1fr;
   overflow: hidden;
+  border: 1px solid #0C1120;
 }
 
 .coach-image {

@@ -6,7 +6,7 @@ const CreativeTeamHeader = () => {
   return (
     <div className="team-header">
       <div className="header-content">
-        <div className="level-badge intro">Intro</div>
+        <div className="level-badge intro">Intermediate</div>
         <h1>Creative Coding</h1>
         <p>Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition.</p>
         <div className="outcome-section">

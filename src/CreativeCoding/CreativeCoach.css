@@ -24,12 +24,11 @@
 
 .coach-card {
   background: white;
-  /* border-radius: 16px; */
-  /* border: 1px solid #0C1120; */
   display: grid;
   padding: 0;
   grid-template-columns: 400px 1fr;
   overflow: hidden;
+  border: 1px solid #0C1120;
 }
 
 .coach-image {

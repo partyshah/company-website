@@ -1,10 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.open('/', '_blank');
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      <div className="navbar-brand" onClick={handleHomeClick} style={{ cursor: 'pointer' }}>
         Pike Teams
       </div>
       <button className="navbar-apply-button">
