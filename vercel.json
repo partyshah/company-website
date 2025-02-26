@@ -1,10 +1,22 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/gamedevteam", "destination": "/api/_middleware" },
-    { "source": "/nlpteam", "destination": "/api/_middleware" },
-    { "source": "/aiteam", "destination": "/api/_middleware" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { 
+      "source": "/gamedevteam", 
+      "destination": "/api/_middleware" 
+    },
+    { 
+      "source": "/nlpteam", 
+      "destination": "/api/_middleware" 
+    },
+    { 
+      "source": "/aiteam", 
+      "destination": "/api/_middleware" 
+    },
+    { 
+      "source": "/(.*)", 
+      "destination": "/index.html" 
+    }
   ],
   "headers": [
     {
