@@ -7,8 +7,7 @@ const CreativeTeamNextSession = () => {
       <h2>When's the next session?</h2>
       <div className="session-cards">
         <div className="session-card">
-          <p className="session-date">June 9–July 18</p>
-          <h3>Session 1</h3>
+          <h3>June 9 – July 18</h3>
           <p className="session-time">Mondays and Wednesdays, 6–8 PM EST</p>
         </div>
       </div>

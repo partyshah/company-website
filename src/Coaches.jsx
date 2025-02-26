@@ -26,7 +26,7 @@ const Coaches = () => {
     },
     {
       name: "Coach Golpari",
-      bio: "Studied computer sceince and art at University of Michigan and current engineer at Blizzard. Coaches students on game development.",
+      bio: "Studied computer science and art at University of Michigan and current engineer at Blizzard. Coaches students on game development.",
       image: golpariProfile
     },
     {

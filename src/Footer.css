@@ -24,6 +24,7 @@
   font-weight: 500;
   cursor: pointer;
   color: #0C1120;
+  text-decoration: none;
 }
 
 .info-session-btn:hover {

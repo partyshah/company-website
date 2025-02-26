@@ -12,9 +12,8 @@ const CreativeTuition = () => {
         <button className="tuition-apply-button">Apply now</button>
         <div className="session-cards">
           <div className="session-card">
-            <p className="session-date">June 2–August 15</p>
-            <h3>Session 1</h3>
-            <p className="session-time">Tuesdays and Thursdays, 6:30–8 PM EST</p>
+            <h3>June 9 – July 18</h3>
+            <p className="session-time">Mondays and Wednesdays, 6–8 PM EST</p>
           </div>
         </div>
       </div>
