@@ -1,0 +1,131 @@
+.brandbar-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFDE0;
+  margin: 0 auto;
+  padding: 46px 0;
+}
+
+.brandbar-header {
+  color: #0C1120;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 80px;
+}
+
+.brandbar-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 60px;
+  flex-wrap: nowrap;
+}
+
+.brand-logo {
+  height: 75px;
+  width: auto;
+  max-width: 300px;
+  object-fit: contain;
+}
+
+/* Specific adjustments for logos that need different sizing */
+.brand-logo[alt="Atlassian"] {
+  height: 70px;
+}
+
+.brand-logo[alt="Brown University"] {
+  height: 100px;
+}
+
+.brand-logo[alt="DraftKings"] {
+  height: 90px;
+}
+
+.brand-logo[alt="University of Michigan"] {
+  height: 90px;
+}
+
+.brand-logo[alt="Amazon"] {
+  height: 120px;
+  margin-top: -15px; /* Optical adjustment since Amazon logo has extra space above */
+}
+
+@media (max-width: 1400px) {
+  .brandbar-logos {
+    gap: 40px;
+    justify-content: center;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .brandbar-logos {
+    flex-wrap: wrap;
+    gap: 80px 60px;
+    padding: 0 30px;
+  }
+
+  .brand-logo {
+    height: 65px;
+  }
+
+  .brand-logo[alt="Atlassian"] {
+    height: 60px;
+  }
+
+  .brand-logo[alt="Brown University"] {
+    height: 85px;
+  }
+
+  .brand-logo[alt="DraftKings"],
+  .brand-logo[alt="University of Michigan"] {
+    height: 75px;
+  }
+
+  .brand-logo[alt="Amazon"] {
+    height: 100px;
+    margin-top: -12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brandbar-container {
+    padding: 24px 16px;
+  }
+
+  .brandbar-header {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .brandbar-logos {
+    gap: 50px 40px;
+  }
+
+  .brand-logo {
+    height: 45px;
+    max-width: 200px;
+  }
+
+  .brand-logo[alt="Brown University"] {
+    height: 65px;
+  }
+
+  .brand-logo[alt="Amazon"] {
+    height: 75px;
+    margin-top: -8px;
+  }
+
+  .brand-logo[alt="DraftKings"],
+  .brand-logo[alt="University of Michigan"] {
+    height: 55px;
+  }
+} 

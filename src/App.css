@@ -1,5 +1,5 @@
 main {
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  margin-top: -50px;
+  margin-top: -90px;
 }
 
 .testimonials-container,
