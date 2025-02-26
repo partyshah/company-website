@@ -1,22 +1,10 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/gamedevteam",
-      "dest": "/api/_middleware"
-    },
-    {
-      "src": "/nlpteam",
-      "dest": "/api/_middleware"
-    },
-    {
-      "src": "/aiteam",
-      "dest": "/api/_middleware"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+  "rewrites": [
+    { "source": "/gamedevteam", "destination": "/api/_middleware" },
+    { "source": "/nlpteam", "destination": "/api/_middleware" },
+    { "source": "/aiteam", "destination": "/api/_middleware" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
     {
