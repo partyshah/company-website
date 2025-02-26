@@ -12,7 +12,7 @@ const CreativeCoach = () => {
           <div className="coach-info">
             <h3>Coach Rick</h3>
             <p>
-              Hey I'm Matan! I grew up around Boston and studied Computer Science at Brown University, where I completed my bachelor’s and master’s degrees in four years. At Brown, I played in the jazz band and was a teaching assistant for a data science course. After graduating, I worked as a software engineer at Amazon Web Services and then as a founding engineer for several early-stage startups. At the same time, I’ve been teaching and mentoring students in programming, machine learning, and artificial intelligence over the past three years. I’m passionate about making AI accessible and engaging for students, and I can’t wait to meet you all!
+            Hi, I'm Rick! I grew up in Sacramento and Cupertino, CA and studied Statistics & Machine Learning with a Minor in CS and Fine Arts at Carnegie Mellon University in Pittsburgh. At CMU, I began my journey as an artist thinking that my interested lied in painting and installation practice - but after enrolling in a creative coding class that integrates creativity, artistic practice, and coding in Javascript, I became interested in exploring the boundaries of what art and code can be. I've been working in the industry for a little over a year now as a Machine Learning Engineer at Atlassian!
             </p>
           </div>
         </div>

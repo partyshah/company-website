@@ -7,6 +7,7 @@
   width: 100%;
   box-sizing: border-box;
   border-top: 2px solid #0C1120;
+  border-bottom: 2px solid #0C1120;
 }
 
 .next-session h2 {

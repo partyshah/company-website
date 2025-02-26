@@ -16,7 +16,7 @@ function Home() {
       <LandingHeader />
       <HowItWorks />
       <Teams />
-      <Coaches />
+      {/* <Coaches /> */}
       <Testimonials />
       <Apply />
       <Footer />

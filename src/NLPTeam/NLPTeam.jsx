@@ -22,11 +22,11 @@ const NLPTeam = () => {
       <div className="team-page">
         <NLPTeamHeader />
         <NLPTeamNextSession />
+        <NLPCoach />
         <NLPStudentJourney />
         <NLPSchedule />
         <NLPEligibility />
         <NLPApplication />
-        <NLPCoach />
         <NLPTuition />
       </div>
       <Footer />

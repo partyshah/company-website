@@ -8,8 +8,12 @@ import creativeCoding from './images/creativecoding.png';
 import gameDev from './images/gamedev.png';
 import ai from './images/ai.png';
 import nlp from './images/nlp.png';
+import rick from './images/rick.jpeg';
+import golpari from './images/golpari.png'; 
+import matan from './images/matan.jpeg';
+import kuai from './images/kuai.png';
 import { useNavigate } from 'react-router-dom';
-const TeamCard = ({ level, title, sessions, backgroundPath, route }) => {
+const TeamCard = ({ level, title, sessions, backgroundPath, route, bio, coach }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
   const levelClass = isAdvanced ? "advanced" : "intro";
 
@@ -27,9 +31,11 @@ const TeamCard = ({ level, title, sessions, backgroundPath, route }) => {
       <div className="card-content">
         <div className={`level-badge ${levelClass}`}>{level}</div>
         <h3>{title}</h3>
+        {coach && <p className="coach-name"><strong>Coach</strong> <strong>{coach}</strong></p>}
         {sessions.map((session, index) => (
-          <p key={index}>Next Session: {session}</p>
+          <p key={index}>{session}</p>
         ))}
+        {bio && <p className="team-bio">{bio}</p>}
       </div>
     </div>
   );
@@ -40,34 +46,42 @@ const Teams = () => {
     {
       level: "Intermediate",
       title: "Creative Coding",
-      backgroundPath: creativeCoding,
+      backgroundPath: rick,
+      coach: "Rick Zhang",
       route: "/creativecodingteam",
       sessions: [
         "June 9 - July 18th. Mondays and Wednesdays, 6-8pm EST"
       ],
+      bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
     },
     {
       level: "Advanced",
       title: "Game Development Team",
-      backgroundPath: gameDev,
+      backgroundPath: golpari,
+      coach: "Golpari Abari",
       route: "/gamedevteam",
       sessions: [
         "June 9 - July 18th. Tuesdays and Thursdays, 6-8pm PST",
       ],
+      bio: "Coach Golpari studied computer science and art at University of Michigan and is a current software engineer at Blizzard Entertainment.",
     },
     {
       level: "Advanced",
       title: "AI Practical Applications Team",
-      backgroundPath: ai,
+      backgroundPath: matan,
+      coach: "Matan Gans",
       route: "/aiteam",
       sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 6-8pm EST"],
+      bio: "Coach Matan is a former Amazon engineer and studied computer science at Brown University.",
     },
     {
       level: "Advanced",
       title: "AI Natural Language Processing Team",
-      backgroundPath: nlp,
+      backgroundPath: kuai,
+      coach: "Kuai Yu",
       route: "/nlpteam",
       sessions: ["June 9 - July 18th. Tuesdays and Thursdays, 5-7pm PST"],
+      bio: "Coach Kuai is a director of engineering at a startup in the Bay Area and was previously a software engineer at Google.",
     },
   ];
 
