@@ -93,6 +93,7 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
+  min-height: 200px;
 }
 
 .video-element {
@@ -103,12 +104,14 @@
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 200px;
 }
 
 .play-button {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background: #FFFFFF;
   border: 2px solid #0C1120;

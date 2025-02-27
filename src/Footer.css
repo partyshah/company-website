@@ -25,6 +25,8 @@
   cursor: pointer;
   color: #0C1120;
   text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .info-session-btn:hover {
@@ -66,4 +68,18 @@
 
 .social-icons a:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .info-banner {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 20px 24px;
+  }
+  
+  .info-session-btn {
+    width: 100%;
+    max-width: 300px;
+  }
 } 

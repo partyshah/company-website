@@ -97,6 +97,9 @@ const Testimonials = () => {
                   src={testimonial.videoSrc}
                   className="video-element"
                   playsInline
+                  preload="auto"
+                  muted
+                  crossOrigin="anonymous"
                 />
                 {(!playingVideo || playingVideo !== testimonial.videoId) && (
                   <div className="play-button">
