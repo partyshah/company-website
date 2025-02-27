@@ -4,15 +4,15 @@ import './CreativeSchedule.css';
 const CreativeSchedule = () => {
   const scheduleItems = [
     {
-      duration: '25 mins',
+      duration: '30 mins',
       description: 'Lesson of the day (p5.js functions, javascript fundamentals)'
     },
     {
-      duration: '60 mins',
+      duration: '80 mins',
       description: 'Project time in teams'
     },
     {
-      duration: '5 mins',
+      duration: '10 mins',
       description: 'Reflection circle'
     }
   ];

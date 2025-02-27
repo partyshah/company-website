@@ -1,15 +1,15 @@
 import React from 'react';
-import './AISchedule.css';
+import './SportsSchedule.css';
 
-const AISchedule = () => {
+const SportsSchedule = () => {
   const scheduleItems = [
     {
       duration: '30 mins',
-      description: 'Lesson of the day (Python fundamentals, ML frameworks, AI concepts)'
+      description: 'Lesson of the day (Python analytics, statistical methods, data visualization)'
     },
     {
       duration: '80 mins',
-      description: 'Project time in teams'
+      description: 'Analysis time in teams'
     },
     {
       duration: '10 mins',
@@ -34,4 +34,4 @@ const AISchedule = () => {
   );
 };
 
-export default AISchedule; 
+export default SportsSchedule; 

@@ -12,12 +12,14 @@ import rick from './images/rick.jpeg';
 import golpari from './images/golpari.png'; 
 import matan from './images/matan.jpeg';
 import kuai from './images/kuai.png';
+import chris from './images/chris.png';
 import { Link } from 'react-router-dom';
 // Import session data
 import { sessionData as creativeSessionData } from './CreativeCoding/creativeSessionData';
 import { sessionData as gameDevSessionData } from './GameDevTeam/gameDevSessionData';
 import { sessionData as aiSessionData } from './AITeam/aiSessionData';
 import { sessionData as nlpSessionData } from './NLPTeam/nlpSessionData';
+import { sessionData as sportsAnalyticsSessionData } from './SportsAnalytics/sportsSessionData';
 
 const TeamCard = ({ level, title, backgroundPath, route, bio, coach, sessionData }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
@@ -59,15 +61,15 @@ const Teams = () => {
       sessionData: creativeSessionData,
       bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
     },
-    // {
-    //   level: "Intermediate",
-    //   title: "Sports Analytics Team",
-    //   backgroundPath: rick,
-    //   coach: "Rick Zhang",
-    //   route: "/creativecodingteam",
-    //   sessionData: creativeSessionData,
-    //   bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
-    // },
+    {
+      level: "Intermediate",
+      title: "Sports Analytics Team",
+      backgroundPath: chris,
+      coach: "Chris Bravo",
+      route: "/sportsanalyticsteam",
+      sessionData: sportsAnalyticsSessionData,
+      bio: "Coach Chris studied applied math at Brown University and finished his Master of Science in Computer Science at Georgia Tech. He now works in business analytics at DraftKings.",
+    },
     {
       level: "Advanced",
       title: "Game Development Team",
