@@ -16,6 +16,7 @@ import { Routes, Route } from 'react-router-dom';
 import CreativeCoding from './CreativeCoding/CreativeTeam';
 import AITeam from './AITeam/AITeam';
 import SportsAnalytics from './SportsAnalytics/SportsTeam';
+import ScrollToTop from './ScrollToTop';
 
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -41,14 +42,17 @@ import SportsAnalytics from './SportsAnalytics/SportsTeam';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/creativecodingteam" element={<CreativeCoding />} />
-      <Route path="/sportsanalyticsteam" element={<SportsAnalytics />} />
-      <Route path="/gamedevteam" element={<GameDevTeam />} />
-      <Route path="/nlpteam" element={<NLPTeam />} />
-      <Route path="/aiteam" element={<AITeam />} />
-    </Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/creativecodingteam" element={<CreativeCoding />} />
+        <Route path="/sportsanalyticsteam" element={<SportsAnalytics />} />
+        <Route path="/gamedevteam" element={<GameDevTeam />} />
+        <Route path="/nlpteam" element={<NLPTeam />} />
+        <Route path="/aiteam" element={<AITeam />} />
+      </Routes>
+    </>
   );
 };
 
