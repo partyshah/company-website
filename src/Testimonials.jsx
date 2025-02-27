@@ -123,11 +123,6 @@ const Testimonials = () => {
                   crossOrigin="anonymous"
                   onClick={e => e.stopPropagation()}
                 />
-                {(!playingVideo || playingVideo !== testimonial.videoId || !isPlaying) && (
-                  <div className="play-button">
-                    <div className="play-icon"></div>
-                  </div>
-                )}
               </div>
             )}
           </div>
