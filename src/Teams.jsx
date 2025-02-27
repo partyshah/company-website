@@ -59,6 +59,15 @@ const Teams = () => {
       sessionData: creativeSessionData,
       bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
     },
+    // {
+    //   level: "Intermediate",
+    //   title: "Sports Analytics Team",
+    //   backgroundPath: rick,
+    //   coach: "Rick Zhang",
+    //   route: "/creativecodingteam",
+    //   sessionData: creativeSessionData,
+    //   bio: "Coach Rick studied computer science and art at Carnegie Mellon University and currently a Machine Learning Engineer at Atlassian.",
+    // },
     {
       level: "Advanced",
       title: "Game Development Team",
@@ -92,7 +101,7 @@ const Teams = () => {
     <section className="teams">
       <div className="teams-header">
         <h2>Apply for a team</h2>
-        <p>Join a team based on your interests, level, and availability.</p>
+        <p>Join a team based on your interests, level, and availability. Click on a team to learn more!</p>
       </div>
       <div className="teams-grid">
         {teamData.map((team, index) => (
