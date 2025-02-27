@@ -1,44 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import './Testimonials.css';
 import testimonial1Video from './images/testimonial1.mp4';
 import testimonial2Video from './images/testimonial2.mp4';
 import testimonial3Video from './images/testimonial3.mp4';
 
 const Testimonials = () => {
-  const [playingVideo, setPlayingVideo] = useState(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const videoRefs = useRef({});
-
-  const handleVideoClick = (e, videoId) => {
-    e.stopPropagation();
-    const video = videoRefs.current[videoId];
-    
-    if (playingVideo === videoId) {
-      if (video.paused) {
-        video.play();
-      } else {
-        video.pause();
-      }
-    } else {
-      // Pause any currently playing video
-      if (playingVideo) {
-        videoRefs.current[playingVideo].pause();
-      }
-      // Play the clicked video
-      video.play();
-      setPlayingVideo(videoId);
-    }
-  };
-
-  const handlePlay = (videoId) => {
-    setPlayingVideo(videoId);
-    setIsPlaying(true);
-  };
-
-  const handlePause = () => {
-    setIsPlaying(false);
-  };
-
   const testimonials = [
     {
       type: 'text',
@@ -102,26 +68,14 @@ const Testimonials = () => {
                 </div>
               </div>
             ) : (
-              <div 
-                className="video-placeholder"
-                onClick={(e) => handleVideoClick(e, testimonial.videoId)}
-              >
+              <div className="video-placeholder">
                 <video
-                  ref={el => {
-                    videoRefs.current[testimonial.videoId] = el;
-                    // Add event listeners when the ref is set
-                    if (el) {
-                      el.addEventListener('play', () => handlePlay(testimonial.videoId));
-                      el.addEventListener('pause', handlePause);
-                    }
-                  }}
                   src={testimonial.videoSrc}
                   className="video-element"
                   playsInline
                   preload="auto"
                   controls
                   crossOrigin="anonymous"
-                  onClick={e => e.stopPropagation()}
                 />
               </div>
             )}
