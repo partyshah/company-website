@@ -6,14 +6,19 @@ import testimonial3Video from './images/testimonial3.mp4';
 
 const Testimonials = () => {
   const [playingVideo, setPlayingVideo] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
   const videoRefs = useRef({});
 
-  const handleVideoClick = (videoId) => {
+  const handleVideoClick = (e, videoId) => {
+    e.stopPropagation();
     const video = videoRefs.current[videoId];
     
     if (playingVideo === videoId) {
-      // Pause if clicking the currently playing video
-      video.paused ? video.play() : video.pause();
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
     } else {
       // Pause any currently playing video
       if (playingVideo) {
@@ -23,6 +28,15 @@ const Testimonials = () => {
       video.play();
       setPlayingVideo(videoId);
     }
+  };
+
+  const handlePlay = (videoId) => {
+    setPlayingVideo(videoId);
+    setIsPlaying(true);
+  };
+
+  const handlePause = () => {
+    setIsPlaying(false);
   };
 
   const testimonials = [
@@ -90,18 +104,26 @@ const Testimonials = () => {
             ) : (
               <div 
                 className="video-placeholder"
-                onClick={() => handleVideoClick(testimonial.videoId)}
+                onClick={(e) => handleVideoClick(e, testimonial.videoId)}
               >
                 <video
-                  ref={el => videoRefs.current[testimonial.videoId] = el}
+                  ref={el => {
+                    videoRefs.current[testimonial.videoId] = el;
+                    // Add event listeners when the ref is set
+                    if (el) {
+                      el.addEventListener('play', () => handlePlay(testimonial.videoId));
+                      el.addEventListener('pause', handlePause);
+                    }
+                  }}
                   src={testimonial.videoSrc}
                   className="video-element"
                   playsInline
                   preload="auto"
-                  muted
+                  controls
                   crossOrigin="anonymous"
+                  onClick={e => e.stopPropagation()}
                 />
-                {(!playingVideo || playingVideo !== testimonial.videoId) && (
+                {(!playingVideo || playingVideo !== testimonial.videoId || !isPlaying) && (
                   <div className="play-button">
                     <div className="play-icon"></div>
                   </div>
