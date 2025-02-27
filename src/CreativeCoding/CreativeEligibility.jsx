@@ -9,9 +9,9 @@ const CreativeEligibility = () => {
         <div className="requirements">
           <h3>To be eligible to apply, applicants should have:</h3>
           <ul>
-            <li>A little bit of computer science experience through an intro course or self-taught</li>
-            <li>An interest in creative coding and art</li>
-            <li>A student in high school</li>
+            <li>Completed an introductory coding elective or summer program; or</li>
+            <li>Completed AP Computer Science Principles; or</li>
+            <li>Completed some coding projects on the side.</li>
           </ul>
         </div>
         <div className="restrictions">
