@@ -39,7 +39,7 @@ const TeamCard = ({ level, title, backgroundPath, route, bio, coach, sessionData
           {coach && <p className="coach-name"><strong>Coach</strong> <strong>{coach}</strong></p>}
           <p><strong>Dates:</strong> {sessionData.map((session, index) => (
             <span key={session.id}>
-              {index > 0 ? ', ' : ''}{session.dates}
+              {index > 0 ? ' or ' : ''}{session.dates}
             </span>
           ))}</p>
           <p><strong>Meeting Times:</strong> {sessionData[0].time}</p>
