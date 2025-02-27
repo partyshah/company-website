@@ -7,7 +7,7 @@ const AITeamHeader = () => {
     <div className="team-header">
       <div className="header-content">
         <div className="level-badge intro">Advanced</div>
-        <h1>AI Development Team</h1>
+        <h1>AI Practical Applications Team</h1>
         <p>Join a 15 person team of experienced high school computer science students, get coached by an expert AI developer, and build AI applications with a team to win the end of season competition.</p>
         <div className="outcome-section">
           <h2>Outcome</h2>

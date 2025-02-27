@@ -4,10 +4,10 @@ import './CreativeTeamHeader.css';
 
 const CreativeTeamHeader = () => {
   return (
-    <div className="team-header">
+    <div className="team-header creative-team-header">
       <div className="header-content">
         <div className="level-badge intro">Intermediate</div>
-        <h1>Creative Coding</h1>
+        <h1>Creative Coding Team</h1>
         <p>Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition.</p>
         <div className="outcome-section">
           <h2>Outcome</h2>
