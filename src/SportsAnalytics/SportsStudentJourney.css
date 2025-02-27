@@ -1,0 +1,113 @@
+.sports-student-journey {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sports-journey-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sports-journey-content h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.sports-journey-content > p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 40px 0;
+  text-align: left;
+  white-space: normal;
+}
+
+.sports-journey-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #DC92F5;  /* Purple color matching creative journey */
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.sports-journey-step {
+  background-color: white;
+  border: 2px solid #0C1120;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.sports-journey-step h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  min-width: 100px;
+}
+
+.sports-journey-step p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  flex: 1;
+}
+
+@media (max-width: 1440px) {
+  .sports-student-journey {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sports-student-journey {
+    padding: 40px 34px;
+  }
+
+  .sports-journey-content h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .sports-journey-content > p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 428px) {
+  .sports-student-journey {
+    padding: 32px 20px;
+  }
+
+  .sports-journey-content h2 {
+    font-size: 32px;
+  }
+
+  .sports-journey-steps {
+    padding: 16px;
+  }
+
+  .sports-journey-step {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .sports-journey-step h3 {
+    min-width: 80px;
+  }
+} 

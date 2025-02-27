@@ -15,6 +15,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import CreativeCoding from './CreativeCoding/CreativeTeam';
 import AITeam from './AITeam/AITeam';
+import SportsAnalytics from './SportsAnalytics/SportsTeam';
 
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -43,6 +44,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/creativecodingteam" element={<CreativeCoding />} />
+      <Route path="/sportsanalyticsteam" element={<SportsAnalytics />} />
       <Route path="/gamedevteam" element={<GameDevTeam />} />
       <Route path="/nlpteam" element={<NLPTeam />} />
       <Route path="/aiteam" element={<AITeam />} />
