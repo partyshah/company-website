@@ -14,7 +14,7 @@ const LandingHeader = () => {
         Pike matches top high school computer science students with teams coached by engineers from Google, Amazon, and Atlassian to compete in a 6-week app challenge competition
         </p>
         <div className="cta-container">
-          <p className="date">Applications for Summer 2025 are due March 14th</p>
+          <p className="date">Applications for Summer 2025 are due April 7th</p>
           <a 
             href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form" 
             target="_blank" 
