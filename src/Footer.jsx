@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="info-banner">
+      {/* <div className="info-banner">
         <span>Want more info before applying?</span>
         <a 
           href="https://lu.ma/piketeams" 
@@ -14,7 +14,7 @@ const Footer = () => {
         >
           Join an info session
         </a>
-      </div>
+      </div> */}
       <footer className="footer">
         <div className="footer-content">
           <span>Pike Teams</span>
