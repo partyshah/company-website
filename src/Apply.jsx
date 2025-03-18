@@ -6,7 +6,8 @@ const Apply = () => {
     <div className="apply-section">
       <div className="apply-container">
         <h2 className="apply-title">Apply to join today!</h2>
-        <p className="apply-description">We're currently accepting applications for our summer teams. Applications are due April 7th!</p>
+        <p className="apply-description"><strong> Next application window closes April 7th</strong></p>
+        <p className="apply-description">We expect applications for teams to be highly competitive and we accept on first come first serve basis. Apply early.</p>
         <a 
           href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form" 
           target="_blank" 
