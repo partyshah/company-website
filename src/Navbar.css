@@ -25,13 +25,18 @@
   padding: 0 34px;
 }
 
-.navbar-apply-button {
+.navbar-buttons {
+  display: flex;
+  gap: 16px;
+  margin-right: 34px;
+}
+
+.navbar-button {
   display: flex;
   padding: 10px 32px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-right: 34px;
   
   border-radius: 100px;
   border: 2px solid #0C1120;
@@ -48,14 +53,18 @@
   white-space: nowrap;
 }
 
-.navbar-apply-button:hover {
+.navbar-button:hover {
   background-color: #FFD669;
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-apply-button {
-    padding: 10px 24px;
+  .navbar-buttons {
     margin-right: 16px;
+    gap: 12px;
+  }
+
+  .navbar-button {
+    padding: 10px 24px;
     font-size: 16px;
     display: inline-flex;
     justify-content: center;

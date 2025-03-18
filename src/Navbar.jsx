@@ -23,14 +23,24 @@ const Navbar = () => {
       <div className="navbar-brand" onClick={handleHomeClick} style={{ cursor: 'pointer' }}>
         Pike Teams
       </div>
-      <a 
-        href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="navbar-apply-button"
-      >
-        Apply now
-      </a>
+      <div className="navbar-buttons">
+        <a 
+          href="https://lu.ma/piketeams"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-button"
+        >
+          Join an infosession
+        </a>
+        <a 
+          href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-button"
+        >
+          Apply now
+        </a>
+      </div>
     </nav>
   );
 };

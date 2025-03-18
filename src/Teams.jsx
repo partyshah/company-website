@@ -103,7 +103,7 @@ const Teams = () => {
     <section className="teams">
       <div className="teams-header">
         <h2>Apply for a team</h2>
-        <p>Join a team based on your interests, level, and availability. Click on a team to learn more!</p>
+        <p>We only take 150 students per season. Click on a team to learn more!</p>
       </div>
       <div className="teams-grid">
         {teamData.map((team, index) => (
