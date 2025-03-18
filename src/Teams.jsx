@@ -102,8 +102,8 @@ const Teams = () => {
   return (
     <section className="teams">
       <div className="teams-header">
-        <h2>Apply for a team</h2>
-        <p>We only take 150 students per season. Click on a team to learn more!</p>
+        <h2>Apply for a summer team</h2>
+        <p>We are selecting only 150 of the best students nationwide. Click on a team to learn more!</p>
       </div>
       <div className="teams-grid">
         {teamData.map((team, index) => (
