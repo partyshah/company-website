@@ -7,7 +7,7 @@ const SportsTuition = () => {
     <div className="tuition">
       <h2>Tuition & application</h2>
       <div className="tuition-content">
-        <p className="tuition-cost">The cost is $1000 for the 6 week program (24 meeting hours)</p>
+        <p className="tuition-cost">The cost is $1200 for the 6 week program (24 meeting hours)</p>
         <p className="tuition-note">With that said, accessibility is very important to us.</p>
         <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
         <a 
