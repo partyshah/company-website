@@ -1,5 +1,5 @@
 import React from 'react';
-import ml from '../images/ml.png';
+import ml from '../images/ai.png';
 import './MLTeamHeader.css';
 
 const MLTeamHeader = () => {
