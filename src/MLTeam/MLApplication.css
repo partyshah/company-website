@@ -1,0 +1,122 @@
+.application {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #0C1120;
+}
+
+.application-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.application-content h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+}
+
+.application-content > p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  margin: 0 0 40px 0;
+}
+
+.application-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.application-step {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.application-step h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h4 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.step-content p {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 1440px) {
+  .application {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .application {
+    padding: 40px 34px;
+  }
+
+  .application-content h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+
+  .application-content > p {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .application-step {
+    gap: 16px;
+  }
+
+  .application-step h3 {
+    font-size: 36px;
+  }
+
+  .step-content h4 {
+    font-size: 20px;
+  }
+
+  .step-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 428px) {
+  .application {
+    padding: 32px 20px;
+  }
+
+  .application-content h2 {
+    font-size: 32px;
+  }
+
+  .application-step h3 {
+    font-size: 32px;
+  }
+} 

@@ -1,0 +1,151 @@
+.tuition {
+  background-color: #FFFDE0;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tuition h2 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.tuition-content {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tuition-cost {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.tuition-note, .tuition-aid {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.tuition-apply-button {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 24px 0 40px;
+  
+  border-radius: 100px;
+  border: 2px solid #0C1120;
+  background: #FDE35D;
+  box-shadow: 0px 2px 0px 0px #0C1120;
+  
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0C1120;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tuition-apply-button:hover {
+  background-color: #FFD669;
+}
+
+.session-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+}
+
+.session-card {
+  background: #FFFFFF;
+  border: 2px solid #0C1120;
+  border-radius: 16px;
+  padding: 24px;
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+}
+
+.session-date {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.session-card h3 {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.session-time {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .tuition {
+    padding: 60px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tuition {
+    padding: 40px 34px;
+  }
+
+  .tuition h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .session-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .session-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 428px) {
+  .tuition {
+    padding: 32px 20px;
+  }
+
+  .tuition h2 {
+    font-size: 32px;
+  }
+
+  .tuition-cost {
+    font-size: 20px;
+  }
+
+  .tuition-note, .tuition-aid {
+    font-size: 16px;
+  }
+} 

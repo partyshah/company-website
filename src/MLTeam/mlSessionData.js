@@ -1,14 +1,8 @@
 export const sessionData = [
   {
     id: 1,
-    title: 'Session 1',
-    dates: 'June 9 - July 18',
-    time: 'Tue/Thu, 6–8 PM EST'
-  },
-  {
-    id: 2,
-    title: 'Session 2',
-    dates: 'July 7 - August 15',
-    time: 'Tue/Thu, 6–8 PM EST'
+    title: 'Summer Session',
+    dates: 'July 8 - August 16',
+    time: 'Mon/Wed 4:00-6:00 PM PT'
   }
 ]; 
