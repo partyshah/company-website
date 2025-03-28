@@ -3,7 +3,7 @@ import './Testimonials.css';
 import testimonial1Video from './images/testimonial1.mp4';
 import testimonial2Video from './images/testimonial2.mp4';
 import testimonial3Video from './images/testimonial3.mp4';
-import Suchitra from './images/Suchitra.mp4';
+import SuchitraVideo from './images/Suchitra_testimonial.mp4';
 import danielleProfile from './images/danielle-pitts.jpeg';
 import scottProfile from './images/scott-photo.jpeg';
 import bryceProfile from './images/Bryce.png';
@@ -23,7 +23,7 @@ const Testimonials = () => {
     {
       type: 'video',
       videoId: 'suchitra',
-      videoSrc: Suchitra,
+      videoSrc: SuchitraVideo,
       backgroundColor: "#44E4A7"  // Green
     },
     {
