@@ -8,6 +8,8 @@ import Testimonials from './Testimonials';
 import Apply from './Apply';
 import Footer from "./Footer";
 import BrandBar from './BrandBar';
+import FAQ from './FAQ';
+import InfoSession from './InfoSession';
 import React from 'react';
 
 function Home() {
@@ -20,6 +22,8 @@ function Home() {
       <Teams />
       {/* <Coaches /> */}
       <Testimonials />
+      <FAQ />
+      <InfoSession />
       <Apply />
       <Footer />
     </div>
