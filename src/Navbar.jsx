@@ -25,14 +25,6 @@ const Navbar = () => {
       </div>
       <div className="navbar-buttons">
         <a 
-          href="https://lu.ma/piketeams"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="navbar-button"
-        >
-          Join an infosession
-        </a>
-        <a 
           href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
           target="_blank"
           rel="noopener noreferrer"
