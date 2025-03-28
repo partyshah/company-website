@@ -5,21 +5,26 @@ const NLPEligibility = () => {
   return (
     <div className="eligibility">
       <div className="eligibility-content">
-        <h2>Eligibility</h2>
-        <div className="requirements">
-          <h3>To be eligible to apply, applicants should have:</h3>
-          <ul>
-            <li>Completed AP Computer science A; or</li>
-            <li>Completed many coding projects on the side; and</li>
-            <li>Strongly considered studying computer science in college.</li>
-          </ul>
-        </div>
-        <div className="restrictions">
-          <h3>Students should not:</h3>
-          <ul>
-            <li>Have no coding experience. Right now students need some experience for our intermediate team and a lot of experience for advanced.</li>
-            <li>Be non-high school students (i.e. middle school or college students). This program is for rising 9th-rising 12th graders. We believe deeply that high school is underserved. We've intentionally designed the program for that audience.</li>
-          </ul>
+        <div className="eligibility-header">
+          <h2>Eligibility</h2>
+          <div className="date-time-boxes">
+            <div className="date-time-box">
+              <h3>AP CS A</h3>
+              <p>Completed at least AP CS A or equivalent class</p>
+            </div>
+            <div className="date-time-box">
+              <h3>Side projects</h3>
+              <p>Completed multiple coding projects on the side beyond AP CS A</p>
+            </div>
+            <div className="date-time-box">
+              <h3>Concepts</h3>
+              <p>Knows variables, functions, loops, conditionals, lists/2d arrays, object oriented programming, recursion, and can combine multiple files into one project</p>
+            </div>
+            <div className="date-time-box">
+              <h3>US high school students</h3>
+              <p>We only accept rising 9th graders-rising 12th graders in the US</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import NLPCoach from './NLPCoach';
 import NLPTuition from './NLPTuition';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
+import InfoSession from '../InfoSession';
 import './NLPTeam.css';
 
 const NLPTeam = () => {
@@ -33,6 +34,7 @@ const NLPTeam = () => {
         <NLPSchedule />
         <NLPEligibility />
         <NLPApplication />
+        <InfoSession />
         <NLPTuition />
       </div>
       <Footer />

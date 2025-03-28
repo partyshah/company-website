@@ -3,7 +3,7 @@ import './Testimonials.css';
 import testimonial1Video from './images/testimonial1.mp4';
 import testimonial2Video from './images/testimonial2.mp4';
 import testimonial3Video from './images/testimonial3.mp4';
-import suchitraVideo from './images/Suchitratestimonial.mp4';
+import Suchitra from './images/Suchitra.mp4';
 import danielleProfile from './images/danielle-pitts.jpeg';
 import scottProfile from './images/scott-photo.jpeg';
 import bryceProfile from './images/Bryce.png';
@@ -22,8 +22,8 @@ const Testimonials = () => {
     },
     {
       type: 'video',
-      videoId: 'video4',
-      videoSrc: suchitraVideo,
+      videoId: 'suchitra',
+      videoSrc: Suchitra,
       backgroundColor: "#44E4A7"  // Green
     },
     {
@@ -81,7 +81,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials-container">
       <h2 className="testimonials-header">Words from our community</h2>
-      <p className="testimonials-subheader">Find out why 60+ families love Pike Teams</p>
+      <p className="testimonials-subheader">Find out why 60+ high school families love Pike Teams</p>
       <div className="testimonials-grid">
         {testimonials.map((testimonial, index) => (
           <div 

@@ -11,6 +11,7 @@ import SportsTuition from './SportsTuition';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
 import './SportsTeam.css';
+import InfoSession from '../InfoSession';
 
 const SportsTeam = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const SportsTeam = () => {
         <SportsSchedule />
         <SportsEligibility />
         <SportsApplication />
+        <InfoSession />
         <SportsTuition />
       </div>
       <Footer />

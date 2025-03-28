@@ -8,6 +8,7 @@ import MLEligibility from './MLEligibility';
 import MLApplication from './MLApplication';
 import MLCoach from './MLCoach';
 import MLTuition from './MLTuition';
+import InfoSession from '../InfoSession';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
 import './MLTeam.css';
@@ -33,6 +34,7 @@ const MLTeam = () => {
         <MLSchedule />
         <MLEligibility />
         <MLApplication />
+        <InfoSession />
         <MLTuition />
       </div>
       <Footer />

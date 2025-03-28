@@ -1,10 +1,10 @@
 .team-header {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap: 48px;
   background-color: #FFFDE0;
   width: 100%;
-  padding: 60px 120px;
+  padding: 60px 160px 60px 180px;
   margin-top: var(--navbar-height);
   box-sizing: border-box;
 }
@@ -68,11 +68,11 @@
 
 .header-image {
   flex: 1;
-  max-width: 600px;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-top: 0;
+  padding: 20px;
 }
 
 .header-image img {

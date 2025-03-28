@@ -11,6 +11,7 @@ import AITuition from './AITuition';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
 import './AITeam.css';
+import InfoSession from '../InfoSession';
 
 const AITeam = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const AITeam = () => {
         <AISchedule />
         <AIEligibility />
         <AIApplication />
+        <InfoSession />
         <AITuition />
       </div>
       <Footer />

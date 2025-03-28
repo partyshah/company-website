@@ -11,6 +11,7 @@ import CreativeTuition from './CreativeTuition';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
 import './CreativeTeam.css';
+import InfoSession from '../InfoSession';
 
 const CreativeTeam = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const CreativeTeam = () => {
         <CreativeSchedule />
         <CreativeEligibility />
         <CreativeApplication />
+        <InfoSession />
         <CreativeTuition />
       </div>
       <Footer />
