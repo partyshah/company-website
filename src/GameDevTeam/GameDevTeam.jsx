@@ -10,6 +10,7 @@ import GameDevCoach from './GameDevCoach';
 import GameDevTuition from './GameDevTuition';
 import Footer from '../Footer';
 import MetaTags from '../components/MetaTags';
+import InfoSession from '../InfoSession';
 import './GameDevTeam.css';
 
 const GameDevTeam = () => {
@@ -33,6 +34,7 @@ const GameDevTeam = () => {
         <GameDevSchedule />
         <GameDevEligibility />
         <GameDevApplication />
+        <InfoSession />
         <GameDevTuition />
       </div>
       <Footer />

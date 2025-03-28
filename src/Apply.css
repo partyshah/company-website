@@ -19,16 +19,31 @@
   margin-bottom: 1rem;
 }
 
+.apply-subheader {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apply-subheader .wide-line {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .apply-description {
   font-family: 'Lexend', sans-serif;
   font-size: 16px;
   color: #0C1120;
   margin-bottom: 1rem;
   line-height: 1.5;
-}
-
-.apply-description:last-of-type {
-  margin-bottom: 2.5rem;
 }
 
 .apply-button {

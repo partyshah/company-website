@@ -53,14 +53,17 @@
   border-radius: 0;
   font-family: 'Lexend', sans-serif;
   font-size: 14px;
-  font-weight: 700;
   color: #0C1120;
+  width: fit-content;
   border: 2px solid #0C1120;
 }
 
 .creative-team-header .level-badge.intro {
   background-color: #FDE35D !important;
-  box-shadow: none !important;
+}
+
+.creative-team-header .level-badge.advanced {
+  background-color: #DC92F5 !important;
 }
 
 .header-image {
