@@ -13,6 +13,7 @@ import golpari from './images/golpari.png';
 import matan from './images/matan.jpeg';
 import kuai from './images/kuai.png';
 import chris from './images/chris.png';
+import leo from './images/leo.jpeg';
 import { Link } from 'react-router-dom';
 // Import session data
 import { sessionData as creativeSessionData } from './CreativeCoding/creativeSessionData';
@@ -20,6 +21,7 @@ import { sessionData as gameDevSessionData } from './GameDevTeam/gameDevSessionD
 import { sessionData as aiSessionData } from './AITeam/aiSessionData';
 import { sessionData as nlpSessionData } from './NLPTeam/nlpSessionData';
 import { sessionData as sportsAnalyticsSessionData } from './SportsAnalytics/sportsSessionData';
+import { sessionData as mlSessionData } from './MLTeam/mlSessionData';
 
 const TeamCard = ({ level, title, backgroundPath, route, bio, coach, sessionData }) => {
   const isAdvanced = level.toLowerCase() === "advanced";
@@ -96,6 +98,15 @@ const Teams = () => {
       route: "/nlpteam",
       sessionData: nlpSessionData,
       bio: "Coach Kuai is a director of engineering at a startup in the Bay Area and was previously a software engineer at Google.",
+    },
+    {
+      level: "Advanced",
+      title: "Machine Learning Team",
+      backgroundPath: leo,
+      coach: "Leo Chen",
+      route: "/mlteam",
+      sessionData: mlSessionData,
+      bio: "Coach Leo is a data scientist and software engineer who studied statistics and data science at Yale University.",
     },
   ];
 
