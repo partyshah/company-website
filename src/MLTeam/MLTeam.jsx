@@ -9,6 +9,7 @@ import MLApplication from './MLApplication';
 import MLCoach from './MLCoach';
 import MLTuition from './MLTuition';
 import Footer from '../Footer';
+import InfoSession from '../InfoSession';
 import MetaTags from '../components/MetaTags';
 import './MLTeam.css';
 
@@ -27,6 +28,7 @@ const MLTeam = () => {
       <Navbar />
       <div className="team-page">
         <MLTeamHeader />
+        <InfoSession />
         <MLTeamNextSession />
         <MLCoach />
         <MLStudentJourney />
