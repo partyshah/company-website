@@ -2,6 +2,12 @@ main {
   padding-top: 90px;
 }
 
+@media (max-width: 768px) {
+  main {
+    padding-top: 120px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +30,12 @@ body {
 
 .header {
   margin-top: -90px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: -180px;
+  }
 }
 
 .testimonials-container,

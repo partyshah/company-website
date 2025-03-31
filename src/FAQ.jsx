@@ -11,7 +11,7 @@ const FAQ = () => {
     },
     {
       question: "Is Pike Teams for for beginner coders?",
-      answer: "Pike Teams is not for intro computer science students. We are selecting the top 150 students from across the country this summer. Building products is really hard so we look not only for technical ability but also how well a student can collaborate with teammates. Only the most exceptional students will earn a spot."
+      answer: "No, Pike Teams is not for intro computer science students. We are selecting the top 150 students from across the country this summer. Building products is really hard so we look not only for technical ability but also how well a student can collaborate with teammates. Only the most exceptional students will earn a spot."
     },
     {
       question: "What do the advanced and intermediate levels mean?",

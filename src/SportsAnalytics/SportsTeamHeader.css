@@ -96,7 +96,7 @@
 
 @media (max-width: 1024px) {
   .team-header {
-    padding: 40px 34px;
+    padding: 90px 34px 40px;
     flex-direction: column;
   }
   
@@ -128,8 +128,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .team-header {
+    padding: 100px 20px 40px;
+  }
+}
+
 @media (max-width: 428px) {
   .team-header {
-    padding: 32px 20px;
+    padding: 110px 20px 32px;
   }
 } 
