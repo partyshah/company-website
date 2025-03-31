@@ -5,7 +5,7 @@
   background-color: #FFFDE0;
   width: 100%;
   padding: 60px 120px;
-  margin-top: var(--navbar-height);
+  margin-top: calc(var(--navbar-height) + 52px);
   box-sizing: border-box;
 }
 
@@ -73,7 +73,7 @@
 
 .header-image {
   flex: 1;
-  max-width: 600px;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: flex-end;

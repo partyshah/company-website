@@ -210,11 +210,7 @@
 
 @media (max-width: 428px) {
   .header {
-    margin-top: var(--navbar-height);
-    padding: 20px;
-    min-height: auto;
-    flex-direction: column;
-    gap: 20px;
+    margin-top: calc(var(--navbar-height) + 40px);
   }
   
   .content {
@@ -269,8 +265,7 @@
 
 @media (max-width: 375px) {
   .header {
-    margin-top: var(--navbar-height);
-    padding: 16px;
+    margin-top: calc(var(--navbar-height) + 40px);
   }
   
   .content h1 {

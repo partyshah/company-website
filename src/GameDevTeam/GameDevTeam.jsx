@@ -28,13 +28,13 @@ const GameDevTeam = () => {
       <Navbar />
       <div className="team-page">
         <GameDevTeamHeader />
+        <InfoSession />
         <GameDevTeamNextSession />
         <GameDevCoach />
         <GameDevStudentJourney />
         <GameDevSchedule />
         <GameDevEligibility />
         <GameDevApplication />
-        <InfoSession />
         <GameDevTuition />
       </div>
       <Footer />

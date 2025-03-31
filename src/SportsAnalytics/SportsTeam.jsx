@@ -9,6 +9,7 @@ import SportsApplication from './SportsApplication';
 import SportsCoach from './SportsCoach';
 import SportsTuition from './SportsTuition';
 import Footer from '../Footer';
+import InfoSession from '../InfoSession';
 import MetaTags from '../components/MetaTags';
 import './SportsTeam.css';
 
@@ -27,6 +28,7 @@ const SportsTeam = () => {
       <Navbar />
       <div className="team-page">
         <SportsTeamHeader />
+        <InfoSession />
         <SportsTeamNextSession />
         <SportsCoach />
         <SportsStudentJourney />
