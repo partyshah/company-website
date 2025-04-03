@@ -10,7 +10,7 @@ const FAQ = () => {
       answer: "Yes, only rising 9th graders through rising college freshman are eligible to apply for the teams."
     },
     {
-      question: "Is Pike Teams for for beginners?",
+      question: "Is Pike Teams for beginners?",
       answer: "No, Pike Teams is not for intro computer science students. We are selecting the top 150 high school students from across the country this summer. Building products is really hard so we look not only for technical ability but also how well a student can collaborate with teammates. Only the most exceptional students will earn a spot."
     },
     {

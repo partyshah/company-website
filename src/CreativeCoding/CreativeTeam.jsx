@@ -9,6 +9,7 @@ import CreativeApplication from './CreativeApplication';
 import CreativeCoach from './CreativeCoach';
 import CreativeTuition from './CreativeTuition';
 import Footer from '../Footer';
+import InfoSession from '../InfoSession';
 import MetaTags from '../components/MetaTags';
 import './CreativeTeam.css';
 
@@ -27,6 +28,7 @@ const CreativeTeam = () => {
       <Navbar />
       <div className="team-page">
         <CreativeTeamHeader />
+        <InfoSession />
         <CreativeTeamNextSession />
         <CreativeCoach />
         <CreativeStudentJourney />
