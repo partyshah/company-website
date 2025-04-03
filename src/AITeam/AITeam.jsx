@@ -9,6 +9,7 @@ import AIApplication from './AIApplication';
 import AICoach from './AICoach';
 import AITuition from './AITuition';
 import Footer from '../Footer';
+import InfoSession from '../InfoSession';
 import MetaTags from '../components/MetaTags';
 import './AITeam.css';
 
@@ -27,6 +28,7 @@ const AITeam = () => {
       <Navbar />
       <div className="team-page">
         <AITeamHeader />
+        <InfoSession />
         <AITeamNextSession />
         <AICoach />
         <AIStudentJourney />
