@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       question: "How much does it cost?",
-      answer: "$1000 for the 6-week season if you apply before April 7th. After that the price will go up to $1250. We also offer financial aid for all families under $200k in household income."
+      answer: "$1000 for the 6-week season. We also offer financial aid for all families under $200k in household income."
     },
     {
       question: "Is this individual mentorship?",

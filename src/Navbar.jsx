@@ -25,12 +25,12 @@ const Navbar = () => {
       </div>
       <div className="navbar-buttons">
         <a 
-          href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
+          href="https://airtable.com/appjy9bfsSpDxkkdH/shr5y5oD3jxQyAWye"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar-button"
         >
-          Apply now
+          Join the waitlist
         </a>
       </div>
     </nav>

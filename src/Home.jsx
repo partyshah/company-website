@@ -10,6 +10,8 @@ import Footer from "./Footer";
 import BrandBar from './BrandBar';
 import FAQ from './FAQ';
 import InfoSession from './InfoSession';
+import History from './History';
+import Timeline from './Timeline';
 import React from 'react';
 
 function Home() {
@@ -19,6 +21,8 @@ function Home() {
       <LandingHeader />
       {/* <HowItWorks /> */}
       <BrandBar />
+      <History />
+      <Timeline />
       <Teams />
       {/* <Coaches /> */}
       <Testimonials />

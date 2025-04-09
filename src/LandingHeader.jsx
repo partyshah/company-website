@@ -9,19 +9,18 @@ const LandingHeader = () => {
   return (
     <header className="header">
       <div className="content">
-        <h1>Build real software products, in a team</h1>
+        <h1>Push Your Limits. Build Something Great.</h1>
         <p className="header-description">
-        Pike matches the best 150 high school computer science students with teams coached by engineers from Google, Amazon, and Atlassian to compete in a 6-week app challenge competition
+          Join the nation's top 150 high school coders in an intense 6-week battle to build real products. Work alongside Google, Amazon, and Atlassian engineers as they push you to your limits. Are you ready to prove yourself?
         </p>
         <div className="cta-container">
-          <p className="date">Next summer application window closes April 7th</p>
           <a 
-            href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form" 
+            href="https://airtable.com/appjy9bfsSpDxkkdH/shr5y5oD3jxQyAWye" 
             target="_blank" 
             rel="noopener noreferrer"
             className="cta-button"
           >
-            Apply now
+            Join the waitlist
           </a>
         </div>
       </div>

@@ -11,12 +11,12 @@ const GameDevTuition = () => {
         <p className="tuition-note">With that said, accessibility is very important to us.</p>
         <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
         <a 
-          href="https://airtable.com/appjy9bfsSpDxkkdH/pag2lPoEXUuNpLbmp/form"
+          href="https://airtable.com/appjy9bfsSpDxkkdH/shr5y5oD3jxQyAWye"
           target="_blank"
           rel="noopener noreferrer"
           className="tuition-apply-button"
         >
-          Apply now
+          Join the waitlist
         </a>
         <div className="session-cards">
           {sessionData.map(session => (
