@@ -11,7 +11,7 @@ const LandingHeader = () => {
       <div className="content">
         <h1>Push Your Limits. Build Something Great.</h1>
         <p className="header-description">
-          Join the nation's top 150 high school coders in an intense 6-week battle to build real products. Work alongside Google, Amazon, and Atlassian engineers as they push you to your limits. Are you ready to prove yourself?
+          Join the nation's top 150 high school coders in an intense 6-week battle to build real products. Get coached by Google, Amazon, and Atlassian engineers as they push you to your limits. Are you ready to prove yourself?
         </p>
         <div className="cta-container">
           <a 
