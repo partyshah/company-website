@@ -1,36 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://piketeams.com/</loc>
-    <lastmod>2025-02-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <!-- Add additional URLs for all your pages -->
-  <url>
-    <loc>https://piketeams.com/creativecodingteam</loc>
-    <lastmod>2025-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://piketeams.com/gamedevteam</loc>
-    <lastmod>2025-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://piketeams.com/aiteam</loc>
-    <lastmod>2025-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://piketeams.com/nlpteam</loc>
-    <lastmod>2025-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- Continue adding entries for all your site pages -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://www.piketeams.com/</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/creativecodingteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/sportsanalyticsteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/gamedevteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/aiteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/nlpteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.piketeams.com/mlteam</loc>
+<lastmod>2025-04-18T09:29:41+00:00</lastmod>
+</url>
 </urlset>
