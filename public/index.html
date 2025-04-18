@@ -72,5 +72,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+	<!-- Canonical tag script start here -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var canonical = document.createElement("link");
+        canonical.rel = "canonical";
+        canonical.href = window.location.origin + window.location.pathname;
+        document.head.appendChild(canonical);
+      });
+    </script>  
+	<!-- Canonical tag script End here -->
   </body>
 </html>
