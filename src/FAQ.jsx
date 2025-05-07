@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqItems = [
     {
       question: "Is this for high schoolers?",
-      answer: "Yes, only rising 9th graders through rising college freshman are eligible to apply for the teams."
+      answer: "Yes, only rising 9th graders through rising college freshmen are eligible to apply for the teams"
     },
     {
       question: "Is Pike Teams for beginners?",
@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       question: "Is this individual mentorship?",
-      answer: "No, Pike Teams is teams of 6-8 students, coached by a professional software engineer from top companies like Amazon, Google, Draft Kings, and Activision-Blizzard. There is individual attention where coaches are helping students learn important technical concept, but a core part of the experience is collaborating with peers, just like what is expected in college, internships, and full-time jobs."
+      answer: "No, Pike Teams is teams of 6-8 students, coached by a professional software engineer from top companies like Amazon, Google, Draft Kings, and Activision-Blizzard. There is individual attention where coaches are helping students learn important technical concepts, but a core part of the experience is collaborating with peers, just like what is expected in college, internships, and full-time jobs."
     },
     {
       question: "What programming languages do students need to know?",
@@ -31,7 +31,19 @@ const FAQ = () => {
     },
     {
       question: "Where are the teams based? Where is the competition?",
-      answer: "We are selecting the top 150 students from across the nation so our students are all over the country. The team meetings are all remote on zoom. The competition is also remote on zoom."
+      answer: "We are selecting the top 150 students from across the nation so our students are all over the country. The team meetings are all remote on Zoom. The competition is also remote on Zoom."
+    },
+	{
+      question: "Are there other coding resources for students provided after the program ends?",
+      answer: "Yes! Alumni gain access to exclusive career resources, coding tutorials, and community support to continue growing after the summer ends."
+    },
+	{
+      question: "How is this different from other computer science summer programs?",
+      answer: "Pike Teams emphasizes hands-on product development, teamwork, and mentorship from real-world engineers, making it more rigorous and practical than most traditional programs."
+    },
+	{
+      question: "Can I join Pike Teams if I’ve already done other coding programs for students?", 
+      answer: "Absolutely. Many of our participants have attended other programs but come to Pike for a more challenging, product-focused experience."
     }
   ];
 
