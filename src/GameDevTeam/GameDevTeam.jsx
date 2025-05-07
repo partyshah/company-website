@@ -21,10 +21,10 @@ const GameDevTeam = () => {
   return (
     <div className="gamedev-team">
       <MetaTags
-        title="Game Development Team | Pike Teams"
-        description="Join a 15 person team of experienced high school computer science students, get coached by an engineer from Blizzard, and build your own video game to win the end of season competition."
+        title="Game Development Program | Pike Teams"
+        description="Looking for the best game development program? Learn to build and publish multiplayer games like racing or strategy using Unity and C# with our expert coders."
         image="https://www.piketeams.com/og-images/gamedev-og.png"
-      />
+      />  
       <Navbar />
       <div className="team-page">
         <GameDevTeamHeader />

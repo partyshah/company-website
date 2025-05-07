@@ -12,11 +12,11 @@
       "headers": [
         {
           "key": "x-og-title",
-          "value": "Game Development Team | Pike Teams"
+          "value": "Game Development Program | Pike Teams"
         },
         {
           "key": "x-og-description",
-          "value": "Join a 15 person team of experienced high school computer science students, get coached by an engineer from Blizzard, and build your own video game to win the end of season competition."
+          "value": "Looking for the best game development program? Learn to build and publish multiplayer games like racing or strategy using Unity and C# with our expert coders." 
         },
         {
           "key": "x-og-image",
@@ -29,11 +29,11 @@
       "headers": [
         {
           "key": "x-og-title",
-          "value": "Creative Coding Team | Pike Teams"
+          "value": "Join Creative Coding Course | Pike Teams"
         },
         {
           "key": "x-og-description",
-          "value": "Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition."
+          "value": "Explore your imagination with our creative coding course! Learn to code sound visualizers, games, and shapeshifting patterns using p5.js. Join our course today!"
         },
         {
           "key": "x-og-image",
@@ -46,11 +46,11 @@
       "headers": [
         {
           "key": "x-og-title",
-          "value": "Artificial Intelligence Team | Pike Teams"
+          "value": "Ai Programming Courses | Pike Teams"
         },
         {
           "key": "x-og-description",
-          "value": "Join a 15 person team of experienced high school computer science students, get coached by a former Amazon engineer, and build advanced AI systems to win the end of season competition."
+          "value": "Join our AI programming course for high school students! Learn AI concepts, coding, and real-world applications through hands-on projects and expert guidance." 
         },
         {
           "key": "x-og-image",
@@ -63,11 +63,11 @@
       "headers": [
         {
           "key": "x-og-title",
-          "value": "Natural Language Processing Team | Pike Teams"
+          "value": "Natural Language Processing Course | Pike Teams" 
         },
         {
-          "key": "x-og-description",
-          "value": "Join a 15 person team of experienced high school computer science students, get coached by a Google engineer, and build advanced language AI systems to win the end of season competition."
+          "key": "x-og-description", 
+          "value": "Searching for a natural language processing course for high schoolers? Our expert coders help you to build and publish your own NLP application."
         },
         {
           "key": "x-og-image",

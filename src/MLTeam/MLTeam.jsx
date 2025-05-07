@@ -21,8 +21,8 @@ const MLTeam = () => {
   return (
     <div className="ml-team">
       <MetaTags
-        title="Machine Learning Team | Pike Teams"
-        description="Join a 15 person team of experienced high school computer science students, get coached by a former Amazon engineer, and build advanced Machine Learning systems to win the end of season competition."
+        title="Machine Learning Program | Pike Teams"
+        description="Want to build and deploy machine learning apps using Python and modern ML frameworks? Join our machine learning program—contact us today!" 
         image="https://www.piketeams.com/og-images/ml-og.png"
       />
       <Navbar />

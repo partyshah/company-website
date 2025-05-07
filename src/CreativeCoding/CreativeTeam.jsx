@@ -21,8 +21,8 @@ const CreativeTeam = () => {
   return (
     <div className="creative-team">
       <MetaTags
-        title="Creative Coding Team | Pike Teams"
-        description="Join a 15 person team of experienced high school computer science students, get coached by an engineer from Atlassian, and build creative and artistic software to win the end of season competition."
+        title="Join Creative Coding Course | Pike Teams"
+        description="Explore your imagination with our creative coding course! Learn to code sound visualizers, games, and shapeshifting patterns using p5.js. Join our course today!" 
         image="https://www.piketeams.com/og-images/creativecoding-og.png"
       />
       <Navbar />

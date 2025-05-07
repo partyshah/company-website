@@ -21,8 +21,8 @@ const SportsTeam = () => {
   return (
     <div className="sports-team-header">
       <MetaTags
-        title="Sports Analytics Team | Pike Teams"
-        description="Join a 15 person team of experienced high school students, get coached by a sports analytics expert, and build innovative sports analytics solutions to win the end of season competition."
+        title="Join Sports Analytics Program | Pike Teams"
+        description="Looking for a sports analytics program? Our course helps you build and present your own project with valuable insights from real sports data. Join us today!"
         image="https://www.piketeams.com/og-images/sportsanalytics-og.png"
       />
       <Navbar />

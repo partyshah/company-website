@@ -21,8 +21,8 @@ const NLPTeam = () => {
   return (
     <div className="nlp-team">
       <MetaTags
-        title="Natural Language Processing Team | Pike Teams"
-        description="Join a 15 person team of experienced high school computer science students, get coached by a Google engineer, and build advanced language AI systems to win the end of season competition."
+        title=" Natural Language Processing Course | Pike Teams"
+        description="Searching for a natural language processing course for high schoolers? Our expert coders help you to build and publish your own NLP application."
         image="https://www.piketeams.com/og-images/nlp-og.png"
       />
       <Navbar />

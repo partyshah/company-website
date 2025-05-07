@@ -21,8 +21,8 @@ const AITeam = () => {
   return (
     <div className="ai-team">
       <MetaTags
-        title="Artificial Intelligence Team | Pike Teams"
-        description="Join a 15 person team of experienced high school computer science students, get coached by a former Amazon engineer, and build advanced AI systems to win the end of season competition."
+        title="Ai Programming Courses | Pike Teams"
+        description="Join our AI programming course for high school students! Learn AI concepts, coding, and real-world applications through hands-on projects and expert guidance." 
         image="https://www.piketeams.com/og-images/ai-og.png"
       />
       <Navbar />
