@@ -7,13 +7,10 @@ const SportsTuition = () => {
     <div className="tuition">
       <h2>Tuition & application</h2>
       <div className="tuition-content">
-        <ul className="tuition-list">
-          <li><strong>Cost:</strong> $1250 for the 6-week program (24 meeting hours).</li>
-          <li><strong>Financial Aid:</strong> Available to all families with household income below $200,000.</li>
-        </ul>
-        <p className="tuition-access-note">
-          We’re committed to making this sports analytics program accessible to all students, regardless of financial background.
-        </p>
+        <p className="tuition-cost">The cost is $1250 for the 6 week program (24 meeting hours)</p>
+        <p className="tuition-note">With that said, accessibility is very important to us.</p>
+        <p className="tuition-aid">We offer financial aid for all families below $200k in household income.</p>
+        <p className="tuition-refund">If you're not 100% happy within 7 days of starting the program, we will refund you immediately.</p>
         <a 
           href="https://airtable.com/appjy9bfsSpDxkkdH/shr5y5oD3jxQyAWye"
           target="_blank"
