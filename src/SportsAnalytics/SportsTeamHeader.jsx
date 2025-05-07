@@ -14,7 +14,8 @@ const SportsTeamHeader = () => {
         <div className="outcome-section">
           <h2>Outcome</h2>
           <p>By the end of the 6 weeks, you will build and present your own sports analytics project that provides valuable insights from real sports data. You will be able to analyze player performance, predict game outcomes, and identify strategic patterns using Python and statistical methods.</p>
-          <p>The sports analytics program prepares you to apply professional techniques used by analysts in real-world sports environments.</p>
+          
+		  <p>The sports analytics program prepares you to apply professional techniques used by analysts in real-world sports environments.</p>
 		</div>
       </div>
       <div className="header-image">
