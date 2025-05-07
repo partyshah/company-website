@@ -17,6 +17,9 @@ const History = () => {
             <p>
               For six weeks, our students work in elite teams, solving real problems in their communities with guidance from top industry experts. It's pressure-packed, it's fast, and it's the best way to learn.
             </p>
+			 <p>
+              Pike Teams was created to fill the gap in coding programs for students who want to push beyond the classroom and into professional-grade development.
+            </p>
             <p>
               Think you have what it takes? Prove it.
             </p>
