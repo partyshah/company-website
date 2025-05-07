@@ -58,6 +58,14 @@
   border: 2px solid #0C1120;
 }
 
+p.sport-team-contentes {
+    margin-top: -13px;
+}
+
+p.sport-team-content {
+    margin-top: 12px;
+}
+
 .sports-team-header .level-badge.intermediate {
   background-color: #FDE35D !important;
 }
