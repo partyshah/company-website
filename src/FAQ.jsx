@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       question: "How much does it cost?",
-      answer: "$1250 for the 6-week season. We also offer financial aid for all families under $200k in household income."
+      answer: "$1250 for the 6-week season. We also offer financial aid for all families under $200k in household income. We offer refunds if you're not 100% satisfied within 7 days."
     },
     {
       question: "Is this individual mentorship?",

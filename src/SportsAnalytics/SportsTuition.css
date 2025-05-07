@@ -35,6 +35,21 @@
   text-align: center;
 }
 
+.tuition-cost {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.tuition-note, .tuition-aid, .tuition-refund {
+  color: #0C1120;
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
 /* New List Styling */
 .tuition-list {
   list-style-type: disc;
@@ -157,6 +172,14 @@
 
   .tuition h2 {
     font-size: 32px;
+  }
+
+  .tuition-cost {
+    font-size: 20px;
+  }
+
+  .tuition-note, .tuition-aid, .tuition-refund {
+    font-size: 16px;
   }
 
   .tuition-list li {
