@@ -13,7 +13,7 @@ const LandingHeader = () => {
         <p className="header-description">
           Join the nation's top 150 high school coders in an intense 6-week battle to build real products. Get coached by Google, Amazon, and Atlassian engineers as they push you to your limits. Are you ready to prove yourself?
         </p>
-		<p>This is more than a coding camp—it's one of the most rigorous high school coding programs in the country, designed to simulate real-world tech environments.</p>
+		<p className="header-description"> This is more than a coding camp—it's one of the most rigorous high school coding programs in the country, designed to simulate real-world tech environments.</p>
         <div className="cta-container">
           <a 
             href="https://airtable.com/appjy9bfsSpDxkkdH/shr5y5oD3jxQyAWye" 
