@@ -2,7 +2,7 @@ import React from 'react';
 import './SportsStudentJourney.css';
 
 const SportsStudentJourney = () => {
-  const journeySteps = [
+  const journeySteps = [ 
     {
       week: 'Week 1',
       description: 'This week is focused on learning Python and the fundamentals of sports data analysis through a mini project.'
@@ -13,7 +13,7 @@ const SportsStudentJourney = () => {
     },
     {
       week: 'Week 3',
-      description: 'They will wrap up their first feature set and present to the other subteam. They will have a feedback meeting with their project lead and coach.'
+      description: 'They will wrap up their first feature set and present it to the other subteam. They will have a feedback meeting with their project lead and coach'
     },
     {
       week: 'Week 4-5',

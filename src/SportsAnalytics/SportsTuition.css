@@ -26,21 +26,28 @@
   text-align: center;
 }
 
-.tuition-cost {
-  color: #0C1120;
-  font-family: 'Lexend', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0 0 16px 0;
+/* New List Styling */
+.tuition-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
 }
 
-.tuition-note, .tuition-aid {
-  color: #0C1120;
-  font-family: 'Lexend', sans-serif;
+.tuition-list li {
+  margin-bottom: 0.75rem;
   font-size: 18px;
-  margin: 0 0 8px 0;
+  font-family: 'Lexend', sans-serif;
+  color: #0C1120;
 }
 
+.tuition-list li strong {
+  font-weight: 700;
+  color: #0C1120;
+}
+
+/* Button */
 .tuition-apply-button {
   display: flex;
   padding: 8px 24px;
@@ -48,12 +55,12 @@
   align-items: center;
   gap: 10px;
   margin: 24px 0 40px;
-  
+
   border-radius: 100px;
   border: 2px solid #0C1120;
   background: #FDE35D;
   box-shadow: 0px 2px 0px 0px #0C1120;
-  
+
   font-family: 'Lexend', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -66,6 +73,7 @@
   background-color: #FFD669;
 }
 
+/* Session Cards */
 .session-cards {
   display: flex;
   gap: 24px;
@@ -105,6 +113,7 @@
   margin: 0;
 }
 
+/* Responsive Design */
 @media (max-width: 1440px) {
   .tuition {
     padding: 60px 80px;
@@ -141,11 +150,7 @@
     font-size: 32px;
   }
 
-  .tuition-cost {
-    font-size: 20px;
-  }
-
-  .tuition-note, .tuition-aid {
+  .tuition-list li {
     font-size: 16px;
   }
-} 
+}

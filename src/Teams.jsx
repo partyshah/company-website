@@ -65,7 +65,7 @@ const Teams = () => {
     },
     {
       level: "Intermediate",
-      title: "Sports Analytics Team",
+      title: "Sports Analytics Program",
       backgroundPath: chris,
       coach: "Chris Bravo",
       route: "/sportsanalyticsteam",

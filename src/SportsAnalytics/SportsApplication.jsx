@@ -11,7 +11,7 @@ const SportsApplication = () => {
     {
       step: '2',
       title: 'Zoom interview',
-      description: 'Both parent and student join. The student completes a 30-minute analytics interview to assess their understanding of statistics and sports. At the end of the student interview, parents join the same Zoom session for 15-minute to discuss team commitment and enrollment details.'
+      description: 'Both parent and student join. The student completes a 30-minute analytics interview to assess their understanding of statistics and sports. At the end of the student interview, parents join the same Zoom session for 15 minute to discuss team commitment and enrollment details.'
     },
     {
       step: '3',
