@@ -66,6 +66,11 @@ p.sport-team-content {
     margin-top: 12px;
 }
 
+h2.header-sub-content {
+    color: #0c1120;
+    font-family: Lexend,sans-serif;
+}
+
 .sports-team-header .level-badge.intermediate {
   background-color: #FDE35D !important;
 }
