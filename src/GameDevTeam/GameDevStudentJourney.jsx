@@ -29,7 +29,7 @@ const GameDevStudentJourney = () => {
     <div className="gamedev-student-journey">
       <div className="gamedev-journey-content">
         <h2>The student journey</h2>
-        <p>
+        <p> 
         On this team, you will work with a team to learn the fundamentals of game development and build a multiplayer game. Your coach and project lead will teach you Unity and C#, work with you to decide features, and help you debug. Becoming a project lead is invite only and will be based on the quality of your application.
         </p>
         <div className="gamedev-journey-steps">
