@@ -77,6 +77,16 @@
   border: 2px solid #0C1120;
 }
 
+a.level-badge-href {
+    color: #0c1120;
+}
+p.level-badge-content-new {
+    margin-top: -12px;
+}
+p.outcome-content-new {
+    margin-top: 8px;
+}
+
 @media (max-width: 1440px) {
   .team-header {
     padding: 60px 80px;
