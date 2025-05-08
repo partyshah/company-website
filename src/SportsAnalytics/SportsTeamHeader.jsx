@@ -8,7 +8,7 @@ const SportsTeamHeader = () => {
       <div className="header-content">
         <div className="level-badge intermediate">Intermediate</div>
         <h1>Sports Analytics Program</h1>
-		<h2>Analyze Games. Sharpen Skills. Predict the Future.</h2>
+		<h2 className="header-sub-content">Analyze Games. Sharpen Skills. Predict the Future.</h2>
         <p>Join a 15-person team of high school students passionate about sports and computer science, get coached by an experienced sports analytics professional, and develop prediction applications to win the end-of-season competition.</p>
 		<p className="sport-team-contentes">This hands-on sports analytics program is designed to provide a real-world experience in analyzing and predicting sports outcomes.</p>
         <div className="outcome-section">
