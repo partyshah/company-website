@@ -7,7 +7,7 @@ const GameDevTeamHeader = () => {
     <div className="team-header">
       <div className="header-content">
         <div className="level-badge intro">Advanced</div>
-        <h1>Game Development Team</h1>
+        <h1>Game Development Program</h1>
         <p>Join a 15 person team of experienced high school computer science students, get coached by an expert game developer, and build a game with a team to win the end of season competition.</p>
         <div className="outcome-section">
           <h2>Outcome</h2>
