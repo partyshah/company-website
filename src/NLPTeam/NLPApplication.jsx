@@ -10,8 +10,8 @@ const NLPApplication = () => {
     },
     {
       step: '2',
-      title: 'Zoom interview',
-      description: 'Both parent and student join. The student completes a 30-minute coding interview to assess their skills. At the end the student interview, parents join the same Zoom session for 15-minute to discuss team commitment and enrollment details.'
+      title: 'Zoom interview', 
+      description: 'Both parent and student join. The student completes a 30-minute coding interview to assess their skills. At the end of the student interview, parents join the same Zoom session for 15 minutes to discuss team commitment and enrollment details.'
     },
     {
       step: '3',
@@ -24,7 +24,6 @@ const NLPApplication = () => {
     <div className="application">
       <div className="application-content">
         <h2>Application process</h2>
-        <p>Please complete the written application to apply for one of our teams. Our application process is as follows:</p>
         <div className="application-steps">
           {applicationSteps.map((step, index) => (
             <div key={index} className="application-step">
