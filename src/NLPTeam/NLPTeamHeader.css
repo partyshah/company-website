@@ -81,10 +81,10 @@ a.level-badge-href {
     color: #0c1120;
 }
 p.level-badge-content-new {
-    margin-top: -12px;
+    margin-top: -12px8px!important;
 }
 p.outcome-content-new {
-    margin-top: 8px;
+    margin-top: 8px8px!important;
 }
 
 @media (max-width: 1440px) {
