@@ -6,25 +6,24 @@ const GameDevApplication = () => {
     {
       step: '1',
       title: 'Written application',
-      description: 'Students submit a written application showcasing their background and interest. Only top applicants are selected for an interview.'
+      description: 'Submit your application showcasing your background and interest in game development.'
     },
     {
       step: '2',
       title: 'Zoom interview',
-      description: 'Both parent and student join. The student completes a 30-minute coding interview to assess their skills. At the end the student interview, parents join the same Zoom session for 15-minute to discuss team commitment and enrollment details.'
+      description: ' A 30-minute student coding interview followed by a 15-minute family Q&A to discuss enrollment and expectations.'
     },
     {
       step: '3',
       title: 'Enrollment',
-      description: 'Admitted students receive paperwork to officially join the team.'
+      description: 'If accepted, complete your enrollment paperwork and get ready to join the team!'
     }
   ];
 
   return (
     <div className="application">
       <div className="application-content">
-        <h2>Application process</h2>
-        <p>Please complete the written application to apply for one of our teams. Our application process is as follows:</p>
+        <h2>Application process</h2>  
         <div className="application-steps">
           {applicationSteps.map((step, index) => (
             <div key={index} className="application-step">
