@@ -32,6 +32,7 @@ const NLPStudentJourney = () => {
         <p>
         On this team, you will work with a team to learn the fundamentals of natural language processing and build an AI bot using Python. Your coach and project lead will teach you the NLP libraries using Python, work with you to decide features, and help you debug. Becoming a project lead is invite only and will be based on the quality of your application.
         </p>
+		<p>The program functions like an applied natural language processing course where students get to build features, test them, and collaborate in an agile workflow.</p>
         <div className="gamedev-journey-steps">
           {journeySteps.map((step, index) => (
             <div key={index} className="gamedev-journey-step">

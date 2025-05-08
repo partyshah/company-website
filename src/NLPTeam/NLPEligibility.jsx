@@ -17,8 +17,8 @@ const NLPEligibility = () => {
         <div className="restrictions">
           <h3>Students should not:</h3>
           <ul>
-            <li>Have no coding experience. Right now students need some experience for our intermediate team and a lot of experience for advanced.</li>
-            <li>Be non-high school students (i.e. middle school or college students). This program is for rising 9th-rising 12th graders. We believe deeply that high school is underserved. We've intentionally designed the program for that audience.</li>
+            <li>Have no coding experience. Right now students need some experience for our intermediate team and a lot of experience for advanced.</li> 
+            <li>Be non-high school students (i.e. middle school or college students). This program is for rising 9th–rising 12th graders. We believe deeply that high school is underserved. We've intentionally designed the program for that audience.</li>
           </ul>
         </div>
       </div>
