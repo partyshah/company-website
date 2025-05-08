@@ -13,7 +13,7 @@ const GameDevStudentJourney = () => {
     },
     {
       week: 'Week 3',
-      description: 'Complete and present your first features to another subteam. You'll receive feedback from your project lead and coach.'
+      description: 'Complete and present your first features to another subteam. You will receive feedback from your project lead and coach.'
     },
     {
       week: 'Week 4-5',
