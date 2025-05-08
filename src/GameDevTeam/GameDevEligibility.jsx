@@ -20,8 +20,8 @@ const GameDevEligibility = () => {
             <li>Have no prior coding experience</li>
             <li>Be in middle school or college (this program is for rising 9th–12th graders)</li>
           </ul>
-        </div>
-       <p>We’ve specifically designed this game development program to serve high schoolers who are ready to grow in a focused, team-based environment.</p> 		
+        </div>    
+       <p className="gamdev-content-el">We’ve specifically designed this game development program to serve high schoolers who are ready to grow in a focused, team-based environment.</p> 		
       </div>
     </div>
   );

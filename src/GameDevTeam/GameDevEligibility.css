@@ -13,6 +13,16 @@
   width: 100%;
 }
 
+p.gamdev-content-el{
+    color: #0c1120;
+    font-family: Lexend,sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    position: relative;
+}
+
 .eligibility-content h2 {
   color: #0C1120;
   font-family: 'Lexend', sans-serif;
