@@ -16,7 +16,7 @@
         },
         {
           "key": "x-og-description",
-          "value": "Looking for the best game development program? Learn to build and publish multiplayer games like racing or strategy using Unity and C# with our expert coders." 
+          "value": "Looking for the best game development program? Learn to build and publish multiplayer games like racing or strategy using Unity and C# with our expert coders."
         },
         {
           "key": "x-og-image",
@@ -50,7 +50,7 @@
         },
         {
           "key": "x-og-description",
-          "value": "Join our AI programming course for high school students! Learn AI concepts, coding, and real-world applications through hands-on projects and expert guidance." 
+          "value": "Join our AI programming course for high school students! Learn AI concepts, coding, and real-world applications through hands-on projects and expert guidance."
         },
         {
           "key": "x-og-image",
@@ -63,10 +63,10 @@
       "headers": [
         {
           "key": "x-og-title",
-          "value": "Natural Language Processing Course | Pike Teams" 
+          "value": "Natural Language Processing Course | Pike Teams"
         },
         {
-          "key": "x-og-description", 
+          "key": "x-og-description",
           "value": "Searching for a natural language processing course for high schoolers? Our expert coders help you to build and publish your own NLP application."
         },
         {
@@ -74,6 +74,60 @@
           "value": "https://www.piketeams.com/og-images/nlp-og.png"
         }
       ]
+    },
+    {
+      "source": "/404error",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/ai-camp",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/intro-python-coding-camp",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/competition-team-1",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/usaco-training-camp",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/competition-team",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
-} 
+}
